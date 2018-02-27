@@ -1,16 +1,15 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Rajan Mahida
-  Date: 2/26/2018
-  Time: 7:01 PM
+  User: tarang
+  Date: 26/2/18
+  Time: 9:35 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
+    <script>
+        var resizefunc = [];
+    </script>
 
-</head>
-<body>
     <!-- jQuery  -->
     <script src="${pageContext.request.contextPath}/assets/js/jquery.min.js"></script>
     <script src="${pageContext.request.contextPath}/assets/js/bootstrap.min.js"></script>
@@ -24,6 +23,3 @@
     <!-- App js -->
     <script src="${pageContext.request.contextPath}/assets/js/jquery.core.js"></script>
     <script src="${pageContext.request.contextPath}/assets/js/jquery.app.js"></script>
-
-</body>
-</html>
