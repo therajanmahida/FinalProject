@@ -39,7 +39,7 @@
                             <!--<h4 class="text-uppercase font-bold m-b-0">Sign In</h4>-->
                         </div>
                         <div class="account-content">
-                            <form class="form-horizontal" action="home.html">
+                            <form class="form-horizontal" action="home" method="post">
 
                                 <div class="form-group ">
                                     <div class="col-xs-12">
@@ -88,7 +88,7 @@
 
                     <div class="row m-t-50">
                         <div class="col-sm-12 text-center">
-                            <p class="text-muted">Don't have an account? <a href="register.html" class="text-primary m-l-5"><b>Sign Up</b></a></p>
+                            <p class="text-muted">Don't have an account? <a href="register" class="text-primary m-l-5"><b>Sign Up</b></a></p>
                         </div>
                     </div>
 

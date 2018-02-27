@@ -20,6 +20,4 @@
     <script src="${pageContext.request.contextPath}/assets/js/jquery.slimscroll.js"></script>
     <script src="${pageContext.request.contextPath}/assets/js/jquery.scrollTo.min.js"></script>
 
-    <!-- App js -->
-    <script src="${pageContext.request.contextPath}/assets/js/jquery.core.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/jquery.app.js"></script>
+

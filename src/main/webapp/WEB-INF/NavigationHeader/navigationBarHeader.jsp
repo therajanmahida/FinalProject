@@ -83,7 +83,7 @@
                                 </a>
                             </li>
                             <li class="all-msgs text-center">
-                                <p class="m-0"><a href="#">See all Messages</a></p>
+                                <p class="m-0"><a href="message">See all Messages</a></p>
                             </li>
                         </ul>
                     </li>
@@ -145,8 +145,8 @@
                             </li>
                             <li><a href="javascript:void(0)"><i class="ti-user m-r-5"></i> Profile</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-settings m-r-5"></i> Settings</a></li>
-                            <li><a href="javascript:void(0)"><i class="ti-lock m-r-5"></i> Lock screen</a></li>
-                            <li><a href="logout.html"><i class="ti-power-off m-r-5"></i> Logout</a></li>
+                            <li><a href="lockscreen"><i class="ti-lock m-r-5"></i> Lock screen</a></li>
+                            <li><a href="logout"><i class="ti-power-off m-r-5"></i> Logout</a></li>
                         </ul>
 
                     </li>
@@ -175,8 +175,8 @@
                 <!-- Navigation Menu-->
                 <ul class="navigation-menu">
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
+                    <li class="has-submenu" id="dashboard_tab">
+                        <a href="dashboard"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
                         <ul class="submenu">
                             <li>
                                 <a href="index.html">Dashboard 01</a>
@@ -187,8 +187,8 @@
                         </ul>
                     </li>
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-layers"></i>UI Kit</a>
+                    <li class="has-submenu" id="supplier_tab">
+                        <a href="supplier"><i class="fa fa-truck"></i>Supplier</a>
                         <ul class="submenu megamenu">
                             <li>
                                 <ul>
@@ -237,8 +237,8 @@
                         </ul>
                     </li>
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-diamond"></i>Components</a>
+                    <li class="has-submenu" id="staff_tab">
+                        <a href="staff"><i class="typcn typcn-group"></i>Staff</a>
                         <ul class="submenu">
                             <li class="has-submenu">
                                 <a href="#">Forms</a>
@@ -309,12 +309,12 @@
                         </ul>
                     </li>
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-google-pages"></i>Pages</a>
+                    <li class="has-submenu" id="finance_tab">
+                        <a href="finance"><i class="mdi mdi-currency-inr"></i>Finance</a>
                         <ul class="submenu megamenu">
                             <li>
                                 <ul>
-                                    <li><a href="page-starter.html">Starter Page</a></li>
+                                    <li><a href="page-starter.html">Inventory</a></li>
                                     <li><a href="page-login.html">Login</a></li>
                                     <li><a href="page-register.html">Register</a></li>
                                     <li><a href="page-logout.html">Logout</a></li>
@@ -333,8 +333,8 @@
                         </ul>
                     </li>
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-book-multiple"></i>Extras</a>
+                    <li class="has-submenu" id="outlets_tab">
+                        <a href="outlets"><i class="mdi mdi-store"></i>Outlets</a>
                         <ul class="submenu megamenu">
                             <li>
                                 <ul>
@@ -361,8 +361,8 @@
                         </ul>
                     </li>
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-comment-text"></i>Blog</a>
+                    <li class="has-submenu" id="inventory_tab">
+                        <a href="inventory"><i class="ion-bag"></i>Inventroy</a>
                         <ul class="submenu">
                             <li><a href="blogs-dashboard.html">Dashboard</a></li>
                             <li><a href="blogs-blog-list.html">Blog List</a></li>
@@ -372,8 +372,8 @@
                         </ul>
                     </li>
 
-                    <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-home-map-marker"></i>Real Estate</a>
+                    <li class="has-submenu" id="message_tab">
+                        <a href="message"><i class="mdi mdi-message-text"></i>Message</a>
                         <ul class="submenu">
                             <li><a href="real-estate-dashboard.html">Dashboard</a></li>
                             <li><a href="real-estate-list.html">Property List</a></li>

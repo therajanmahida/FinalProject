@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <title>Zircos - Responsive Admin Dashboard Template</title>
+    <title>Message</title>
 
     <!-- App css -->
     <jsp:include page="../cssHeader/commonCssHeader.jsp"></jsp:include>
@@ -18,6 +18,9 @@
 
 
     <jsp:include page="../scriptHeader/commonScriptHeader.jsp"></jsp:include>
+
+
+
 
 </head>
 
@@ -38,6 +41,14 @@
 
     <jsp:include page="../scriptFooter/commonScriptAppFooter.jsp"></jsp:include>
 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var _message_tab = $('#message_tab');
+            _message_tab.addClass("active");
+
+
+        });
+    </script>
 
 
 

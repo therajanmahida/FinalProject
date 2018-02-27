@@ -87,7 +87,7 @@
 
                     <div class="row m-t-50">
                         <div class="col-sm-12 text-center">
-                            <p class="text-muted">Already have account?<a href="login.html" class="text-primary m-l-5"><b>Sign In</b></a></p>
+                            <p class="text-muted">Already have account?<a href="login" class="text-primary m-l-5"><b>Sign In</b></a></p>
                         </div>
                     </div>
 
