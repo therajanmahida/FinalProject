@@ -3,14 +3,27 @@ package VO;
 import java.util.HashMap;
 
 public class BreadCrumbVO {
-    HashMap<String,String> _name_url;
-    public BreadCrumbVO(){
-        this._name_url = new HashMap<>();
+    String _value;
+    String _url;
+
+    public BreadCrumbVO(String _value, String _url) {
+        this._value = _value;
+        this._url = _url;
     }
-    public void addData(String _page_name,String _url_name_relative){
-        this._name_url.put(_page_name,_url_name_relative);
+
+    public String get_value() {
+        return _value;
     }
-    public HashMap<String, String> get_name_url() {
-        return _name_url;
+
+    public void set_value(String _value) {
+        this._value = _value;
+    }
+
+    public String get_url() {
+        return _url;
+    }
+
+    public void set_url(String _url) {
+        this._url = _url;
     }
 }
