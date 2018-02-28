@@ -7,9 +7,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "userdetails")
+@Table(name = "user")
 public class UserVO {
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     @Id
     @Column(name = "username",nullable = false)
