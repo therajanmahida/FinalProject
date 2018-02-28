@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Gradle : GradleThemeDemo : GradleThemeDemo-1.0-SNAPSHOT.war (exploded)" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="8528e9ac-f30b-44b7-bad6-e2a25ea7353e" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DAO/PersistenceDAO.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" />
@@ -23,28 +19,47 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Validation/UserValidation.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/VO/UserVO.java" afterPath="$PROJECT_DIR$/src/main/java/VO/UserVO.java" />
+=======
+    <list default="true" id="9d18fd25-0b33-44d8-bb05-c3297e62dee4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GlobalClass/DBConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GlobalClass/DBOperations.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/VO/CommonVO.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___GradleThemeDemo___GradleThemeDemo_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___GradleThemeDemo___GradleThemeDemo_1_0_SNAPSHOT_war__exploded_.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e50182c-46a4-4731-964f-9de34eeb6cb9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo.iml" afterPath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> Stashed changes
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -64,6 +79,22 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GradleThemeDemo" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleThemeDemo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleThemeDemo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleThemeDemo" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -73,6 +104,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file leaf-file-name="UserValidation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Validation/UserValidation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,10 +145,19 @@
                 <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="PersistenceDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DAO/PersistenceDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -167,6 +208,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+=======
+      <file leaf-file-name="UserVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VO/UserVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
@@ -175,6 +223,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="UserNameInvalidLength.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exception/UserException/UserNameInvalidLength.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -183,10 +232,19 @@
               <folding>
                 <element signature="e#168#169#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Login/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="UserNameNullException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exception/UserException/UserNameNullException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -197,29 +255,17 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Stashed changes
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="RawException" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Logout</find>
-      <find>register</find>
-      <find>lock</find>
-      <find>login</find>
-      <find>UI</find>
-      <find>Message</find>
-      <find>see all</find>
-      <find>Inventory</find>
-      <find>outlet</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -227,12 +273,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-bin/3p92xsbhik5vmig8i90n16yxc/gradle-4.0" />
+        <entry key="$PROJECT_DIR$" value="C:\ProgramData\chocolatey\lib\gradle\tools\gradle-4.5.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.0" />
+        <entry key="$PROJECT_DIR$" value="4.5.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -407,9 +453,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/.gradle/gradle.properties" value="0" />
-        <entry key="$USER_HOME$/.gradle/init.gradle" value="0" />
-        <entry key="$PROJECT_DIR$" value="6072216456000" />
+        <entry key="$PROJECT_DIR$" value="3039491790537" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3982180526" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1821354054" />
       </map>
@@ -433,6 +477,80 @@
               <option name="name" value="GradleThemeDemo" />
               <option name="projectBuildClasspath">
                 <list>
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/ant-1.9.9.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-base-services-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-base-services-groovy-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-build-cache-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-build-option-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-cli-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-core-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-core-api-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-docs-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-installation-beacon-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-jvm-services-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-kotlin-dsl-0.14.2.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-kotlin-dsl-tooling-builders-0.14.2.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-kotlin-dsl-tooling-models-0.14.2.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-launcher-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-logging-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-messaging-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-model-core-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-model-groovy-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-native-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-persistent-cache-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-process-services-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-resources-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-runtime-api-info-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-tooling-api-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/gradle-wrapper-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-announce-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-antlr-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-build-cache-http-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-build-comparison-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-build-init-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-code-quality-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-composite-builds-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-dependency-management-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-diagnostics-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-ear-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-ide-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-ide-native-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-ide-play-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-ivy-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-jacoco-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-javascript-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-language-groovy-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-language-java-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-language-jvm-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-language-native-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-language-scala-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-maven-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-osgi-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-platform-base-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-platform-jvm-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-platform-native-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-platform-play-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-plugin-development-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-plugin-use-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-plugins-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-publish-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-reporting-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-resources-gcs-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-resources-http-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-resources-s3-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-resources-sftp-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-scala-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-signing-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-test-kit-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-testing-base-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-testing-jvm-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-testing-native-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-tooling-api-builders-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-version-control-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/gradle-workers-4.5.1.jar" />
+                  <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -447,13 +565,17 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../ERPServer-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../FinalProject1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../account-REST-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../seyhan-master" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/main/java/check.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/cssHeader/cssHeader.jsp" />
@@ -505,6 +627,10 @@
         <option value="$PROJECT_DIR$/src/main/java/VO/UserVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Validation/UserValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/GlobalClasses/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GlobalClass/DBConnection.java" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -514,6 +640,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< Updated upstream
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -529,7 +656,15 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
+>>>>>>> Stashed changes
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -549,49 +684,69 @@
         <subPane>
           <expand>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThemeDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThemeDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThemeDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThemeDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThemeDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="Validation" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="GlobalClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VO" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pharma" />
   </component>
   <component name="RecentsManager">
@@ -602,6 +757,8 @@
       <recent name="C:\Users\Rajan Mahida\Desktop\GradleThemeDemo\src\main\webapp" />
       <recent name="C:\Users\Rajan Mahida\Desktop\GradleThemeDemo\src\main\webapp\WEB-INF\plugins" />
     </key>
+=======
+>>>>>>> Stashed changes
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -615,9 +772,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GlassFish Server.Glassfish">
+  <component name="RunManager" selected="Gradle.FinalProject [build]">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -637,16 +793,10 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="Glassfish" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/PharmaErp/" />
-      <deployment>
-        <artifact name="Gradle : GradleThemeDemo : GradleThemeDemo-1.0-SNAPSHOT.war (exploded)">
-          <settings>
-            <option name="contextRoot" value="/PharmaErp" />
-            <option name="defaultContextRoot" value="false" />
-          </settings>
-        </artifact>
-      </deployment>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
       <server-settings>
         <option name="DOMAIN" value="domain1" />
         <option name="PRESERVE" value="false" />
@@ -705,14 +855,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="false" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : GradleThemeDemo : GradleThemeDemo-1.0-SNAPSHOT.war (exploded)" />
-        </option>
-      </method>
     </configuration>
-    <configuration name="GradleThemeDemo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FinalProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -724,6 +868,24 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="FinalProject [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -791,12 +953,13 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.Glassfish" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.GradleThemeDemo [build]" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.FinalProject [war]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.FinalProject [build]" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.GradleThemeDemo [build]" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.FinalProject [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.FinalProject [war]" />
       </list>
     </recent_temporary>
   </component>
@@ -808,10 +971,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8528e9ac-f30b-44b7-bad6-e2a25ea7353e" name="Default" comment="" />
-      <created>1519648747979</created>
+      <changelist id="9d18fd25-0b33-44d8-bb05-c3297e62dee4" name="Default" comment="" />
+      <created>1519796909617</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1519648747979</updated>
       <workItem from="1519648761092" duration="5559000" />
       <workItem from="1519708112619" duration="885000" />
@@ -822,49 +986,76 @@
       <workItem from="1519737516866" duration="2024000" />
       <workItem from="1519743640929" duration="3433000" />
       <workItem from="1519749204036" duration="2649000" />
+=======
+      <updated>1519796909617</updated>
+      <workItem from="1519796914043" duration="3368000" />
+      <workItem from="1519802280080" duration="14000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="33039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="288" y="33" width="1325" height="735" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="3382000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+>>>>>>> Stashed changes
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28137177" sideWeight="0.46305418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657833" sideWeight="0.5369458" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5674201" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="481" y="317" width="444" height="167" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -874,6 +1065,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< Updated upstream
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
@@ -977,11 +1169,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+=======
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/UserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/ConfirmMail/ConfirmMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VO/SupplierVO.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="30">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
@@ -1038,8 +1279,70 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VO/PaymentsVO.java">
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/SalaryVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/ClientVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/TransactionVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Register/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/UserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GlobalClasses/CommonVo.java" />
+    <entry file="file://$PROJECT_DIR$/../transfer/CommonVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/CommonVO.java">
+>>>>>>> Stashed changes
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
@@ -1052,6 +1355,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1148,10 +1452,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/../Croods Project Data/SupplierDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VO/BreadCrumbVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#491#492#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GlobalClass/DBOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/Exception/UserException/PasswordInvalidException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1183,6 +1518,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+=======
+    <entry file="file://$PROJECT_DIR$/../transfer/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GlobalClass/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
@@ -1196,6 +1544,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/PersistenceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1221,10 +1570,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/Exception/UserException/UserNameContainsOnlyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1275,6 +1631,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
   </component>
   <component name="masterDetails">
     <states>
@@ -1284,7 +1642,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20358515" />
               </list>
             </option>
           </splitter-proportions>
