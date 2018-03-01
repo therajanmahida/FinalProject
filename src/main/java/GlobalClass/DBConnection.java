@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class DBConnection {
 
-    static Connection connection;
+    static Connection connection = getConnection();
     public static Connection getConnection() throws ClassNotFoundException
     {
         Connection connection = null;
