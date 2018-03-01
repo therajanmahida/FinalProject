@@ -1,6 +1,6 @@
-package DAO;
+package DAO.Global;
 
-import com.fasterxml.classmate.AnnotationConfiguration;
+
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 

@@ -1,89 +1,66 @@
 package DAO;
 
-import Exception.UserException.*;
+
+import DAO.Global.DBOperationDAO;
 import VO.UserVO;
-import Validation.UserValidation;
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 
 import java.util.List;
 
 public class UserDAO {
+     UserVO userVO;
+     DBOperationDAO dbOperationDAO;
+        List<UserVO> list;
 
-    public static void insert(UserVO _user_object){
-        try {
-            if(UserValidation.isCorrect(_user_object)){
-                Session _session = PersistenceDAO.getSessionFactory().getCurrentSession();
-                _session.beginTransaction();
-                _session.save(_user_object);
-                _session.getTransaction().commit();
-            }
-        } catch (UserEmptyException e) {
-            e.printStackTrace();
-        } catch (UserNameContainsSpace userNameContainsSpace) {
-            userNameContainsSpace.printStackTrace();
-        } catch (UserNameNullException e) {
-            e.printStackTrace();
-        } catch (UserNameInvalidLength userNameInvalidLength) {
-            userNameInvalidLength.printStackTrace();
-        } catch (UserNameContainsInvalidCharacter userNameContainsInvalidCharacter) {
-            userNameContainsInvalidCharacter.printStackTrace();
-        } catch (UserNameContainsOnlyNumber userNameContainsOnlyNumber) {
-            userNameContainsOnlyNumber.printStackTrace();
-        } catch (PasswordNullException e) {
-            e.printStackTrace();
-        } catch (PassWordContainsSpace passWordContainsSpace) {
-            passWordContainsSpace.printStackTrace();
-        } catch (PassWordInvalidLength passWordInvalidLength) {
-            passWordInvalidLength.printStackTrace();
-        }
+    public UserDAO() {
+        this.dbOperationDAO = new DBOperationDAO();
     }
-    public static List<UserVO> retrive(String _username) throws UserNotFoundException, UserNameContainsSpace, UserNameContainsOnlyNumber, UserNameContainsInvalidCharacter, UserNameNullException, UserNameInvalidLength {
-        List<UserVO> _result_list = null;
 
-            if(UserValidation.isCorrectUsername(_username)){
-                Session _session = PersistenceDAO.getSessionFactory().getCurrentSession();
-                _session.beginTransaction();
-
-                Query _query = _session.createQuery("FROM User U WHERE U.username='"+_username+"'");
-                _result_list  = _query.list();
-
-                if(_result_list.size()==0){
-                    throw new UserNotFoundException("Exception: User not present");
-                }else
-                    return _result_list;
-            }
-
-            return _result_list;
-
+    public List<UserVO> getUserList(){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.UserVO");
+        dbOperationDAO.closeCurrentSession();
+        return list;
     }
-    public static boolean isPresent(String _username) throws UserNameContainsSpace, UserNameContainsOnlyNumber, UserNameContainsInvalidCharacter, UserNameNullException, UserNameInvalidLength, UserNotFoundException {
 
-        if(UserValidation.isCorrectUsername(_username)){
-            Session _session = PersistenceDAO.getSessionFactory().getCurrentSession();
-            _session.beginTransaction();
-            Query _query = _session.createQuery("FROM User U WHERE U.username='"+_username+"'");
-            List<UserVO> _result_list = _query.list();
-            _session.getTransaction().commit();
-            if(_result_list.size()>0){
-                return true;
-            }else{
-                throw new UserNotFoundException("Exception: User not present");
-            }
-        }
-
-        return false;
-
+    public List<UserVO> getUserWithUserName(String _username){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.UserVO where username='"+_username+"'");
+        dbOperationDAO.closeCurrentSession();
+        return list;
     }
-    public static void update(UserVO _user_data) throws UserEmptyException, PassWordContainsSpace, UserNameInvalidLength, UserNameNullException, PasswordNullException, UserNameContainsOnlyNumber, UserNameContainsSpace, PassWordInvalidLength, UserNameContainsInvalidCharacter, UserNotFoundException {
-        if(UserValidation.isCorrect(_user_data)&&isPresent(_user_data.getUsername())){
-            Session _session = PersistenceDAO.getSessionFactory().getCurrentSession();
-            _session.beginTransaction();
 
-
-
-
-        }
+    public void insert(UserVO userVO){
+        dbOperationDAO.openCurrentSessionWithTransaction();
+        dbOperationDAO.insert(userVO);
+        dbOperationDAO.closeCurrentSessionWithTransaction();
     }
+
+    public void deleteById(int _user_id){
+        dbOperationDAO.openCurrentSessionWithTransaction();
+        dbOperationDAO.deleteById(UserVO.class,_user_id);
+        dbOperationDAO.closeCurrentSessionWithTransaction();
+    }
+
+    public boolean deleteByUserName(String _username){
+        dbOperationDAO.openCurrentSessionWithTransaction();
+        org.hibernate.Query query = dbOperationDAO.getCurrentSession().createQuery("from UserVO where username='"+_username+"'");
+        list = query.list();
+        boolean result  = dbOperationDAO.deleteById(UserVO.class,list.get(0).getId());
+        dbOperationDAO.closeCurrentSessionWithTransaction();
+        return result;
+    }
+
+    public void update(UserVO userVO, int user_id){
+        dbOperationDAO.openCurrentSessionWithTransaction();
+        UserVO userVO1 = dbOperationDAO.getCurrentSession().load(UserVO.class,user_id);
+        userVO1.setPassword(userVO.getPassword());
+        userVO1.setUsername(userVO.getUsername());
+        userVO1.setAccountStatus(userVO.getAccountStatus());
+        userVO1.setEmployeeVO(userVO.getEmployeeVO());
+        userVO1.setUserLevel(userVO.getUserLevel());
+        dbOperationDAO.closeCurrentSessionWithTransaction();
+    }
+
+
+
 }
