@@ -11,7 +11,7 @@ public class OutletVO implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "outlet_name",nullable = false,unique = true)
+    @Column(name = "outlet_name",nullable = false)
     private String OutletName;
 
     @Column(name = "contact_number_one",nullable = false,unique = true)
@@ -31,7 +31,7 @@ public class OutletVO implements Serializable{
 
     @ManyToOne
     @JoinColumn(name  = "comanyId")
-    private CompanyVO comanyVO;
+    private CompanyVO companyVO;
 
     public OutletVO(String outletName, String contactNumberOne, String contactNumberTwo, String addressLine, String state, String city, CompanyVO comanyVO) {
         OutletName = outletName;
@@ -40,7 +40,7 @@ public class OutletVO implements Serializable{
         AddressLine = addressLine;
         State = state;
         City = city;
-        this.comanyVO = comanyVO;
+        this.companyVO = comanyVO;
     }
 
     public OutletVO() {
@@ -103,10 +103,10 @@ public class OutletVO implements Serializable{
     }
 
     public CompanyVO getComanyVO() {
-        return comanyVO;
+        return companyVO;
     }
 
     public void setComanyVO(CompanyVO comanyVO) {
-        this.comanyVO = comanyVO;
+        this.companyVO = comanyVO;
     }
 }

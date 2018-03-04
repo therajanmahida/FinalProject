@@ -19,7 +19,7 @@
                 <!--</a>-->
                 <!-- Image Logo -->
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo.png" alt="" height="30">
+                    <img src="${pageContext.request.contextPath}/assets/images/logo.png" alt="" height="30">
                 </a>
 
             </div>
@@ -49,7 +49,7 @@
                             <li>
                                 <a href="#" class="user-list-item">
                                     <div class="avatar">
-                                        <img src="assets/images/users/avatar-2.jpg" alt="">
+                                        <img src="${pageContext.request.contextPath}/assets/images/users/avatar-2.jpg" alt="">
                                     </div>
                                     <div class="user-desc">
                                         <span class="name">Patricia Beach</span>
@@ -61,7 +61,7 @@
                             <li>
                                 <a href="#" class="user-list-item">
                                     <div class="avatar">
-                                        <img src="assets/images/users/avatar-3.jpg" alt="">
+                                        <img src="${pageContext.request.contextPath}/assets/images/users/avatar-3.jpg" alt="">
                                     </div>
                                     <div class="user-desc">
                                         <span class="name">Connie Lucas</span>
@@ -73,7 +73,7 @@
                             <li>
                                 <a href="#" class="user-list-item">
                                     <div class="avatar">
-                                        <img src="assets/images/users/avatar-4.jpg" alt="">
+                                        <img src="${pageContext.request.contextPath}/assets/images/users/avatar-4.jpg" alt="">
                                     </div>
                                     <div class="user-desc">
                                         <span class="name">Margaret Becker</span>
@@ -138,7 +138,7 @@
                     </li>
 
                     <li class="dropdown navbar-c-items">
-                        <a href="#" class="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                        <a href="#" class="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true"><img src="${pageContext.request.contextPath}/assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
                         <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
                             <li class="text-center">
                                 <h5>Hi, John</h5>
@@ -176,7 +176,7 @@
                 <ul class="navigation-menu">
 
                     <li class="has-submenu" id="dashboard_tab">
-                        <a href="dashboard"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
+                        <a href="${pageContext.request.contextPath}/dashboard"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
                         <ul class="submenu">
                             <li>
                                 <a href="index.html">Dashboard 01</a>
@@ -188,7 +188,7 @@
                     </li>
 
                     <li class="has-submenu" id="supplier_tab">
-                        <a href="supplier"><i class="fa fa-truck"></i>Supplier</a>
+                        <a href="${pageContext.request.contextPath}/supplier"><i class="fa fa-truck"></i>Supplier</a>
                         <ul class="submenu megamenu">
                             <li>
                                 <ul>
@@ -240,9 +240,9 @@
                     <li class="has-submenu" id="staff_tab">
                         <a href="staff"><i class="typcn typcn-group"></i>Staff</a>
                         <ul class="submenu">
-                            <li class="has-submenu">
-                                <a href="#">Forms</a>
-                                <ul class="submenu">
+                            <li class="">
+                                <a href="${pageContext.request.contextPath}/staff/employee" id="employee_tab">Employee</a>
+                                <!--<ul class="submenu">
                                     <li><a href="form-elements.html">Form Elements</a></li>
                                     <li><a href="form-advanced.html">Form Advanced</a></li>
                                     <li><a href="form-validation.html">Form Validation</a></li>
@@ -252,7 +252,7 @@
                                     <li><a href="form-summernote.html">Summernote</a></li>
                                     <li><a href="form-wysiwig.html">Wysiwig Editors</a></li>
                                     <li><a href="form-uploads.html">Multiple File Upload</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="has-submenu">
                                 <a href="#">Charts</a>
@@ -310,7 +310,7 @@
                     </li>
 
                     <li class="has-submenu" id="finance_tab">
-                        <a href="finance"><i class="mdi mdi-currency-inr"></i>Finance</a>
+                        <a href="${pageContext.request.contextPath}/finance"><i class="mdi mdi-currency-inr"></i>Finance</a>
                         <ul class="submenu megamenu">
                             <li>
                                 <ul>
@@ -334,7 +334,7 @@
                     </li>
 
                     <li class="has-submenu" id="outlets_tab">
-                        <a href="outlets"><i class="mdi mdi-store"></i>Outlets</a>
+                        <a href="${pageContext.request.contextPath}/outlets"><i class="mdi mdi-store"></i>Outlets</a>
                         <ul class="submenu megamenu">
                             <li>
                                 <ul>
@@ -362,7 +362,7 @@
                     </li>
 
                     <li class="has-submenu" id="inventory_tab">
-                        <a href="inventory"><i class="ion-bag"></i>Inventroy</a>
+                        <a href="${pageContext.request.contextPath}/inventory"><i class="ion-bag"></i>Inventroy</a>
                         <ul class="submenu">
                             <li><a href="blogs-dashboard.html">Dashboard</a></li>
                             <li><a href="blogs-blog-list.html">Blog List</a></li>
@@ -373,7 +373,7 @@
                     </li>
 
                     <li class="has-submenu" id="message_tab">
-                        <a href="message"><i class="mdi mdi-message-text"></i>Message</a>
+                        <a href="${pageContext.request.contextPath}/message"><i class="mdi mdi-message-text"></i>Message</a>
                         <ul class="submenu">
                             <li><a href="real-estate-dashboard.html">Dashboard</a></li>
                             <li><a href="real-estate-list.html">Property List</a></li>

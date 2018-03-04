@@ -48,6 +48,10 @@ public class DBOperationDAO extends PersistenceDAO {
         transaction = currentTransaction;
     }
 
+    public <T> T load(Class<T> type, int _id){
+        return getCurrentSession().load(type,_id);
+    }
+
     public void insert(Object object){
         getCurrentSession().save(object);
     }

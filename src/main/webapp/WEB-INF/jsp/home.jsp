@@ -28,6 +28,12 @@
     <jsp:include page="../NavigationHeader/navigationBarHeader.jsp"></jsp:include>
 
 
+    <div class="row" style="margin-top: 40px">
+
+        <div id="check" class="btn btn-primary">Hi</div>
+        <div id="output"></div>
+
+    </div>
 
 
     <jsp:include page="../companyFooter/companyFooter.jsp"></jsp:include>
@@ -38,7 +44,17 @@
 
     <jsp:include page="../scriptFooter/commonScriptAppFooter.jsp"></jsp:include>
 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var button = $('#check');
+            button.on("click",function () {
 
+                $('#output').load("finance");
+            });
+
+
+        });
+    </script>
 
 
 </body>

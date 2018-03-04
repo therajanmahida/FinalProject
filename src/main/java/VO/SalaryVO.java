@@ -6,7 +6,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "salary")
 public class SalaryVO implements Serializable {
-    private enum Position{HEAD,SENIOR,JUNIOR}
+    public enum Position{HEAD,SENIOR,JUNIOR}
 
     @Id
     @Column(name = "id",nullable = false)

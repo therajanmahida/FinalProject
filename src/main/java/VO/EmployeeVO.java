@@ -3,12 +3,14 @@ package VO;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 import java.util.Set;
 
 @Entity
 @Table(name = "employee")
 public class EmployeeVO implements Serializable {
-    private enum WorkingStatus{CURRENT,EX};
+    public enum WorkingStatus{CURRENT,EX};
+    public enum Designation{HEAD,SENIOR,JUNIOR}
 
     @Id
     @Column(name = "id",nullable = false)
@@ -18,8 +20,9 @@ public class EmployeeVO implements Serializable {
     @Column(name = "employee_name",nullable = false)
     private String EmployeeName;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "designation",nullable = false)
-    private String Designation;
+    private Designation Designation;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "date_of_birth")
@@ -61,11 +64,11 @@ public class EmployeeVO implements Serializable {
 
     @OneToOne
     @JoinColumn(name = "company_id")
-    private CompanyVO comanyVO;
+    private CompanyVO companyVO;
 
-    @OneToMany
-    @JoinColumn(name = "department_id")
-    private Set<DepartmentVO> departmentVO;
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "Working_Employee", joinColumns = { @JoinColumn(name = "id") } , inverseJoinColumns = { @JoinColumn(name = "department_id") })
+    private List<DepartmentVO> departmentVO;
 
     @OneToOne
     @JoinColumn(name = "salary_id")
@@ -91,11 +94,11 @@ public class EmployeeVO implements Serializable {
         EmployeeName = employeeName;
     }
 
-    public String getDesignation() {
+    public EmployeeVO.Designation getDesignation() {
         return Designation;
     }
 
-    public void setDesignation(String designation) {
+    public void setDesignation(EmployeeVO.Designation designation) {
         Designation = designation;
     }
 
@@ -188,18 +191,18 @@ public class EmployeeVO implements Serializable {
     }
 
     public CompanyVO getComanyVO() {
-        return comanyVO;
+        return companyVO;
     }
 
     public void setComanyVO(CompanyVO comanyVO) {
-        this.comanyVO = comanyVO;
+        this.companyVO = comanyVO;
     }
 
-    public Set<DepartmentVO> getDepartmentVO() {
+    public List<DepartmentVO> getDepartmentVO() {
         return departmentVO;
     }
 
-    public void setDepartmentVO(Set<DepartmentVO> departmentVO) {
+    public void setDepartmentVO(List<DepartmentVO> departmentVO) {
         this.departmentVO = departmentVO;
     }
 
@@ -211,23 +214,26 @@ public class EmployeeVO implements Serializable {
         this.salaryVO = salaryVO;
     }
 
-    public EmployeeVO(String employeeName, String designation, Date date, String contactNumberOne, String contactNumberTwo, String address, String city, String state, String aadhaarNo, Date joiningDate, Date leavingDate, WorkingStatus currentStatus, OutletVO outletVO, CompanyVO comanyVO, Set<DepartmentVO> departmentVO, SalaryVO salaryVO) {
-
-        EmployeeName = employeeName;
-        Designation = designation;
-        this.date = date;
-        ContactNumberOne = contactNumberOne;
-        ContactNumberTwo = contactNumberTwo;
-        Address = address;
-        City = city;
-        State = state;
-        AadhaarNo = aadhaarNo;
-        JoiningDate = joiningDate;
-        LeavingDate = leavingDate;
-        CurrentStatus = currentStatus;
-        this.outletVO = outletVO;
-        this.comanyVO = comanyVO;
-        this.departmentVO = departmentVO;
-        this.salaryVO = salaryVO;
+    @Override
+    public String toString() {
+        return "EmployeeVO{" +
+                "id=" + id +
+                ", EmployeeName='" + EmployeeName + '\'' +
+                ", Designation=" + Designation +
+                ", date=" + date +
+                ", ContactNumberOne='" + ContactNumberOne + '\'' +
+                ", ContactNumberTwo='" + ContactNumberTwo + '\'' +
+                ", Address='" + Address + '\'' +
+                ", City='" + City + '\'' +
+                ", State='" + State + '\'' +
+                ", AadhaarNo='" + AadhaarNo + '\'' +
+                ", JoiningDate=" + JoiningDate +
+                ", LeavingDate=" + LeavingDate +
+                ", CurrentStatus=" + CurrentStatus +
+                ", outletVO=" + outletVO +
+                ", comanyVO=" + companyVO +
+                ", departmentVO=" + departmentVO +
+                ", salaryVO=" + salaryVO +
+                '}';
     }
 }

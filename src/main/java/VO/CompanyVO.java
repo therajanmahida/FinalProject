@@ -48,6 +48,14 @@ public class CompanyVO implements Serializable{
         TotalCash = totalCash;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getCompanyName() {
         return CompanyName;
     }
@@ -102,5 +110,19 @@ public class CompanyVO implements Serializable{
 
     public void setTotalCash(double totalCash) {
         TotalCash = totalCash;
+    }
+
+    @Override
+    public String toString() {
+        return "CompanyVO{" +
+                "id=" + id +
+                ", CompanyName='" + CompanyName + '\'' +
+                ", EstablishedDate=" + EstablishedDate +
+                ", GstNumber='" + GstNumber + '\'' +
+                ", ContactNumberOne='" + ContactNumberOne + '\'' +
+                ", ContactNumberTwo='" + ContactNumberTwo + '\'' +
+                ", EmailId='" + EmailId + '\'' +
+                ", TotalCash=" + TotalCash +
+                '}';
     }
 }

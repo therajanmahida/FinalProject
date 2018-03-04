@@ -104,4 +104,17 @@ public class ReminderVO implements Serializable{
     public void setCompanyVO(CompanyVO companyVO) {
         this.companyVO = companyVO;
     }
+
+    @Override
+    public String toString() {
+        return "ReminderVO{" +
+                "id=" + id +
+                ", ReminderDate=" + ReminderDate +
+                ", ReminderTime=" + ReminderTime +
+                ", userVOTo=" + userVOTo +
+                ", userVOFrom=" + userVOFrom +
+                ", Message='" + Message + '\'' +
+                ", companyVO=" + companyVO +
+                '}';
+    }
 }

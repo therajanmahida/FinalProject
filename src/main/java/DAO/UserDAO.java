@@ -22,6 +22,23 @@ public class UserDAO {
         return list;
     }
 
+    public List<UserVO> getUserWithUserId(int _id){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.UserVO where id="+_id);
+        dbOperationDAO.closeCurrentSession();
+        return list;
+
+    }
+
+    /*-------------------------------------------------------*/
+    public UserVO load(int _user_id){
+        dbOperationDAO.openCurrentSession();
+        UserVO userVO = dbOperationDAO.load(UserVO.class,_user_id);
+        dbOperationDAO.closeCurrentSession();
+        return userVO;
+    }
+    /*-------------------------------------------------------*/
+
     public List<UserVO> getUserWithUserName(String _username){
         dbOperationDAO.openCurrentSession();
         list = dbOperationDAO.getList("from VO.UserVO where username='"+_username+"'");

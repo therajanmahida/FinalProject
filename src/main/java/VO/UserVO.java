@@ -7,8 +7,8 @@ import java.io.Serializable;
 @Table(name = "user")
 public class UserVO  implements Serializable{
 
-    private enum UserLevel{HEAD,SENIOR,JUNIOR};
-    private enum AccountStatus{ACTIVE,BLOCKED};
+    public enum UserLevel{HEAD,SENIOR,JUNIOR};
+    public enum AccountStatus{ACTIVE,BLOCKED};
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -91,5 +91,17 @@ public class UserVO  implements Serializable{
 
     public void setEmployeeVO(EmployeeVO employeeVO) {
         this.employeeVO = employeeVO;
+    }
+
+    @Override
+    public String toString() {
+        return "UserVO{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", userLevel=" + userLevel +
+                ", accountStatus=" + accountStatus +
+                ", employeeVO=" + employeeVO +
+                '}';
     }
 }

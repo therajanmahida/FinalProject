@@ -12,10 +12,28 @@
   <property name="hibernate.show_sql">true</property>
   <property name="hibernate.connection.pool_size">10</property>
   <property name="current_session_context_class">thread</property>
-  <property name="hbm2ddl.auto">create</property>
+  <property name="hbm2ddl.auto"></property>
+
 
   <mapping class="VO.UserVO"></mapping>
-
+  <mapping class="VO.TransactionVO"></mapping>
+  <mapping class="VO.SupplierVO"></mapping>
+  <mapping class="VO.SalaryVO"></mapping>
+  <mapping class="VO.ReminderVO"></mapping>
+  <mapping class="VO.PurchaseOrderVO"></mapping>
+  <mapping class="VO.PurchaseItemVO"></mapping>
+  <mapping class="VO.OutletVO"></mapping>
+  <mapping class="VO.MessageVO"></mapping>
+  <mapping class="VO.MessageToVO"></mapping>
+  <mapping class="VO.InventoryStocksVO"></mapping>
+  <mapping class="VO.EmployeeVO"></mapping>
+  <mapping class="VO.DrugVO"></mapping>
+  <mapping class="VO.DepartmentVO"></mapping>
+  <mapping class="VO.CostPaymentsVO"></mapping>
+  <mapping class="VO.ClientVO"></mapping>
+  <mapping class="VO.CompanyVO"></mapping>
+  <mapping class="VO.ClientOrderVO"></mapping>
+  <mapping class="VO.ClientOrderItemsVO"></mapping>
 
  </session-factory>
 </hibernate-configuration>

@@ -8,16 +8,16 @@ import java.io.Serializable;
 public class DepartmentVO implements Serializable {
 
     @Id
-    @Column(name = "id",nullable = false)
+    @Column(name = "department_id",nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "department_name",nullable = false,unique = true)
+    @Column(name = "department_name",nullable = false)
     private String DepartmentName;
 
     @ManyToOne
     @JoinColumn(name = "company_id")
-    private CompanyVO comanyVO;
+    private CompanyVO companyVO;
 
     public DepartmentVO() {
 
@@ -25,7 +25,7 @@ public class DepartmentVO implements Serializable {
 
     public DepartmentVO(String departmentName, CompanyVO comanyVO) {
         DepartmentName = departmentName;
-        this.comanyVO = comanyVO;
+        this.companyVO = comanyVO;
     }
 
     public int getId() {
@@ -45,10 +45,10 @@ public class DepartmentVO implements Serializable {
     }
 
     public CompanyVO getComanyVO() {
-        return comanyVO;
+        return companyVO;
     }
 
     public void setComanyVO(CompanyVO comanyVO) {
-        this.comanyVO = comanyVO;
+        this.companyVO = comanyVO;
     }
 }

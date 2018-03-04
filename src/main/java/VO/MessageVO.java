@@ -24,7 +24,7 @@ public class MessageVO implements Serializable {
     @Column(name = "message",nullable = false)
     private String message;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "company_id")
     private CompanyVO companyVO;
 
