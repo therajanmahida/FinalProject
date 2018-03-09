@@ -36,16 +36,21 @@ public class InventoryStocksVO implements Serializable{
     @JoinColumn(name = "outlet_id")
     private OutletVO outletVO;
 
+    @OneToOne
+    @JoinColumn(name = "company_id")
+    private CompanyVO companyVO;
+
     public InventoryStocksVO() {
     }
 
-    public InventoryStocksVO(Date stockRecievedDate, Date stockManufacturedDate, Date stockExpiryDate, int stockQuantity, DrugVO drugVO, OutletVO outletVO) {
+    public InventoryStocksVO(Date stockRecievedDate, Date stockManufacturedDate, Date stockExpiryDate, int stockQuantity, DrugVO drugVO, OutletVO outletVO, CompanyVO companyVO) {
         StockRecievedDate = stockRecievedDate;
         StockManufacturedDate = stockManufacturedDate;
         StockExpiryDate = stockExpiryDate;
         StockQuantity = stockQuantity;
         this.drugVO = drugVO;
         this.outletVO = outletVO;
+        this.companyVO = companyVO;
     }
 
     public int getId() {
@@ -102,5 +107,13 @@ public class InventoryStocksVO implements Serializable{
 
     public void setOutletVO(OutletVO outletVO) {
         this.outletVO = outletVO;
+    }
+
+    public CompanyVO getCompanyVO() {
+        return companyVO;
+    }
+
+    public void setCompanyVO(CompanyVO companyVO) {
+        this.companyVO = companyVO;
     }
 }

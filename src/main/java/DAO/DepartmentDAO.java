@@ -49,6 +49,7 @@ public class DepartmentDAO {
         return list;
     }
 
+
     public void deleteById(int _department_id){
         dbOperationDAO.openCurrentSessionWithTransaction();
         dbOperationDAO.deleteById(DepartmentVO.class,_department_id);

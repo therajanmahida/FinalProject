@@ -15,7 +15,7 @@ import java.util.List;
 
 @Path("/salary")
 public class SalaryREST {
-    static final Gson gson = new GsonBuilder().setDateFormat("MMM dd, yyyy").create();
+    private static final Gson gson = new GsonBuilder().setDateFormat("MMM dd, yyyy").create();
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -23,12 +23,16 @@ public class SalaryREST {
     public Response getSalaryList(){
         SalaryDAO salaryDAO = new SalaryDAO();
         List<SalaryVO> list = salaryDAO.getSalarVOList();
-        if(list.size() == 0) {
+        if(list.size() == 0){
             return Response.status(Response.Status.NOT_FOUND).entity("No Salary present").build();
         }else{
             return Response.ok(gson.toJson(list),MediaType.APPLICATION_JSON).build();
         }
     }
+
+
+    
+    
 
 
 }

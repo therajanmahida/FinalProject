@@ -8,7 +8,7 @@ import java.util.Date;
 @Table(name = "client_order")
 public class ClientOrderVO implements Serializable {
 
-    private enum PaymentStatus{DONE,AWAITING}
+    public enum PaymentStatus{DONE,AWAITING}
 
     @Id
     @Column(name = "id",nullable = false)

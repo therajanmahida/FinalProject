@@ -12,19 +12,19 @@ public class ClientVO implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name="client_name",nullable = false,unique = true)
+    @Column(name="client_name",nullable = false)
     private String ClientName;
 
-    @Column(name = "gst_number",nullable = false,unique = true)
+    @Column(name = "gst_number",nullable = false)
     private String GSTInNumber;
 
-    @Column(name = "contact_number_one",nullable = false,unique = true)
+    @Column(name = "contact_number_one",nullable = false)
     private String ContactNumberOne;
 
-    @Column(name = "contact_number_two",unique = true)
+    @Column(name = "contact_number_two")
     private String ContactNumberTwo;
 
-    @Column(name = "email_id",unique = true,nullable = false)
+    @Column(name = "email_id",nullable = false)
     private String EmailId;
 
     @Column(name = "address",nullable = false)
