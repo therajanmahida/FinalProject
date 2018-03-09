@@ -8,49 +8,54 @@ import java.util.Date;
 @Table(name = "purchase_order")
 public class PurchaseOrderVO implements Serializable {
 
-    private enum PurchaseRequest{AWAITING,PASSED,REJECTED};
-    private enum DeliveryStatus{DELIVERED,WAITING}
+    public  enum PurchaseRequest {AWAITING, PASSED, REJECTED}
+
+    public  enum DeliveryStatus {DELIVERED, WAITING}
 
     @Id
-    @Column(name = "id",nullable = false)
+    @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Temporal(TemporalType.DATE)
-    @Column(name = "purchase_date",nullable = false)
+    @Column(name = "purchase_date", nullable = false)
     private Date PurchaseDate;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "purchase_request",nullable = false)
+    @Column(name = "purchase_request", nullable = false)
     private PurchaseRequest purchaseRequest;
 
     @Temporal(TemporalType.DATE)
-    @Column(name = "request_date",nullable = false)
+    @Column(name = "request_date", nullable = false)
     private Date RequestDate;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "delivery_status",nullable = false)
+    @Column(name = "delivery_status", nullable = false)
     private DeliveryStatus deliveryStatus;
 
-    @Column(name ="purchase_amount",nullable = false)
+    @Column(name = "purchase_amount", nullable = false)
     private double PurchaseAmount;
 
-    @Column(name = "gst",nullable = false)
+    @Column(name = "gst", nullable = false)
     private double GST;
 
     @ManyToOne
-    @JoinColumn(name="outlet_id")
+    @JoinColumn(name = "outlet_id")
     private OutletVO outletVO;
 
     @ManyToOne
     @JoinColumn(name = "employee_id")
     private EmployeeVO employeeVO;
 
+    @OneToOne
+    @JoinColumn(name = "company_id")
+    private CompanyVO companyVO;
+
     public PurchaseOrderVO() {
 
     }
 
-    public PurchaseOrderVO(Date purchaseDate, PurchaseRequest purchaseRequest, Date requestDate, DeliveryStatus deliveryStatus, double purchaseAmount, double GST, OutletVO outletVO, EmployeeVO employeeVO) {
+    public PurchaseOrderVO(Date purchaseDate, PurchaseRequest purchaseRequest, Date requestDate, DeliveryStatus deliveryStatus, double purchaseAmount, double GST, OutletVO outletVO, EmployeeVO employeeVO, CompanyVO companyVO) {
         PurchaseDate = purchaseDate;
         this.purchaseRequest = purchaseRequest;
         RequestDate = requestDate;
@@ -59,6 +64,7 @@ public class PurchaseOrderVO implements Serializable {
         this.GST = GST;
         this.outletVO = outletVO;
         this.employeeVO = employeeVO;
+        this.companyVO = companyVO;
     }
 
     public int getId() {
@@ -132,4 +138,13 @@ public class PurchaseOrderVO implements Serializable {
     public void setEmployeeVO(EmployeeVO employeeVO) {
         this.employeeVO = employeeVO;
     }
+
+    public CompanyVO getCompanyVO() {
+        return companyVO;
+    }
+
+    public void setCompanyVO(CompanyVO companyVO) {
+        this.companyVO = companyVO;
+    }
 }
+

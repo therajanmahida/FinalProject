@@ -7,15 +7,15 @@ import java.util.Set;
 @Entity
 @Table(name = "drug")
 public class DrugVO implements Serializable {
-    private enum DrugType{TABLET,CAPSULE}
-    private enum State{SOLID,LIQUID}
+    public enum DrugType{TABLET,CAPSULE}
+    public enum State{SOLID,LIQUID}
 
     @Id
     @Column(name = "id",nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "item_name",nullable = false,unique = true)
+    @Column(name = "item_name",nullable = false)
     private String ItemName;
 
     @Column(name = "item_description",nullable = false)
@@ -41,14 +41,18 @@ public class DrugVO implements Serializable {
     @Column(name = "expiry_duration",nullable = false)
     private int ExpiryDuration;
 
-    @OneToMany
-    @JoinColumn(name = "supplier_id")
+    @ManyToMany
+    @JoinTable(name = "Drug_Supplier", joinColumns = { @JoinColumn(name = "id") } , inverseJoinColumns = { @JoinColumn(name = "supplier_id") })
     private Set<SupplierVO> supplierVO;
+
+    @OneToOne
+    @JoinColumn(name = "company_id")
+    private CompanyVO companyVO;
 
     public DrugVO() {
     }
 
-    public DrugVO(String itemName, String itemDescription, String dosage, DrugType drugType, State state, double buyPrice, double MRP, int expiryDuration, Set<SupplierVO> supplierVO) {
+    public DrugVO(String itemName, String itemDescription, String dosage, DrugType drugType, State state, double buyPrice, double MRP, int expiryDuration, Set<SupplierVO> supplierVO, CompanyVO companyVO) {
         ItemName = itemName;
         ItemDescription = itemDescription;
         Dosage = dosage;
@@ -58,6 +62,7 @@ public class DrugVO implements Serializable {
         this.MRP = MRP;
         ExpiryDuration = expiryDuration;
         this.supplierVO = supplierVO;
+        this.companyVO = companyVO;
     }
 
     public int getId() {
@@ -138,5 +143,13 @@ public class DrugVO implements Serializable {
 
     public void setSupplierVO(Set<SupplierVO> supplierVO) {
         this.supplierVO = supplierVO;
+    }
+
+    public CompanyVO getCompanyVO() {
+        return companyVO;
+    }
+
+    public void setCompanyVO(CompanyVO companyVO) {
+        this.companyVO = companyVO;
     }
 }

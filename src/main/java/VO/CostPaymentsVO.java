@@ -37,12 +37,12 @@ public class CostPaymentsVO implements Serializable{
     private EmployeeVO employeeVO;
 
     public CostPaymentsVO() {
-
     }
 
-    public CostPaymentsVO(String paymentName, String paymentTo, double paymentAmount, Date paymentDate, CompanyVO companyVO, EmployeeVO employeeVO) {
+    public CostPaymentsVO(String paymentName, String paymentTo, String paymentFrom, double paymentAmount, Date paymentDate, CompanyVO companyVO, EmployeeVO employeeVO) {
         PaymentName = paymentName;
         PaymentTo = paymentTo;
+        PaymentFrom = paymentFrom;
         PaymentAmount = paymentAmount;
         PaymentDate = paymentDate;
         this.companyVO = companyVO;
@@ -71,6 +71,14 @@ public class CostPaymentsVO implements Serializable{
 
     public void setPaymentTo(String paymentTo) {
         PaymentTo = paymentTo;
+    }
+
+    public String getPaymentFrom() {
+        return PaymentFrom;
+    }
+
+    public void setPaymentFrom(String paymentFrom) {
+        PaymentFrom = paymentFrom;
     }
 
     public double getPaymentAmount() {

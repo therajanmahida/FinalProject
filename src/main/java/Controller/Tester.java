@@ -17,27 +17,7 @@ public class Tester extends javax.servlet.http.HttpServlet {
 
 
         EmployeeDAO employeeDAO = new EmployeeDAO();
-        CompanyDAO companyDAO = new CompanyDAO();
-        DepartmentDAO departmentDAO = new DepartmentDAO();
-        EmployeeVO employeeVO = new EmployeeVO();
-        employeeVO.setComanyVO(companyDAO.load(1));
-        employeeVO.setAadhaarNo("qwertyui");
-        employeeVO.setAddress("B/91 pritamnagar society");
-        employeeVO.setCity("Vadodara");
-        employeeVO.setContactNumberOne("dfghjk");
-        employeeVO.setContactNumberTwo("gsdfsd");
-        employeeVO.setCurrentStatus(EmployeeVO.WorkingStatus.CURRENT);
-        employeeVO.setDate(new Date(1996,05,14));
-        List<DepartmentVO> list = new LinkedList<>();
-        list.add(departmentDAO.load(1));
-        list.add(departmentDAO.load(2));
-        employeeVO.setDepartmentVO(list);
-        employeeVO.setDesignation(EmployeeVO.Designation.HEAD);
-        employeeVO.setEmployeeName("Tarang Parikh");
-        employeeVO.setState("Gujarat");
-        employeeVO.setJoiningDate(new Date(2015,07,26));
-        employeeDAO.insert(employeeVO);
-
+        employeeDAO.deleteById(1);
 
 
 

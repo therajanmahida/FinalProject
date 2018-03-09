@@ -1,7 +1,6 @@
 package REST;
 
 
-import DAO.CompanyDAO;
 import DAO.EmployeeDAO;
 import DAO.Global.DBOperationDAO;
 import VO.CompanyVO;
@@ -9,14 +8,15 @@ import VO.DepartmentVO;
 import VO.EmployeeVO;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
-import javax.print.attribute.standard.Media;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 @Path("/employee")
@@ -166,9 +166,8 @@ public class EmployeeREST {
             return Response.status(Response.Status.NOT_FOUND).entity(gson.toJson("No employee with company id = "+_company_id)).build();
         }
 
-        List<EmployeeVO> list_send = list.stream().filter(employeeVO -> {
-                                                return employeeVO.getJoiningDate().compareTo(_joining_date) == 0;
-                                        }).collect(Collectors.toList());
+        List<EmployeeVO> list_send = list.stream().filter(employeeVO -> employeeVO.getJoiningDate().compareTo(_joining_date) == 0).collect(Collectors.toList());
+
         if(list_send.size() == 0){
             return Response.status(Response.Status.NOT_FOUND).entity(gson.toJson("No employee has date of joining "+_joining_date.toString())).build();
         }else{
@@ -185,6 +184,19 @@ public class EmployeeREST {
         EmployeeDAO employeeDAO = new EmployeeDAO();
         employeeDAO.insert(employeeVO);
         return Response.ok().build();
+    }
+
+    @POST
+    @Path("/post/list")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response insertEmployeeList(String employeeDataList){
+        Type list_type = new TypeToken<ArrayList<EmployeeVO>>(){}.getType();
+        List<EmployeeVO> list = gson.fromJson(employeeDataList,list_type);
+        EmployeeDAO employeeDAO = new EmployeeDAO();
+        list.forEach(employeeVO -> {
+            employeeDAO.insert(employeeVO);
+        });
+        return Response.ok(gson.toJson(list.size()+" employess inserted"),MediaType.APPLICATION_JSON).build();
     }
 
     @POST
@@ -206,9 +218,10 @@ public class EmployeeREST {
         return Response.ok().build();
     }
 
-    @DELETE
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
     @Path("/delete/{param}")
-    public Response deleteCompany(@PathParam("param") int _employee_id){
+    public Response deleteEmployee(@PathParam("param") int _employee_id){
         EmployeeDAO employeeDAO = new EmployeeDAO();
         employeeDAO.deleteById(_employee_id);
         return Response.ok().build();
@@ -223,6 +236,10 @@ public class EmployeeREST {
         employeeDAO.update(employeeVO,employeeVO.getId());
         return Response.ok().build();
     }
+
+
+
+
 
 
 }

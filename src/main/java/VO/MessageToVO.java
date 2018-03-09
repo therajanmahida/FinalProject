@@ -34,6 +34,14 @@ public class MessageToVO implements Serializable{
         UserTo = userTo;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public MessageVO getMessageVO() {
         return messageVO;
     }

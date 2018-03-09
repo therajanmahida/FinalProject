@@ -16,19 +16,19 @@ public class PurchaseItemVO implements Serializable{
     @Column(name = "quantity",nullable = false)
     private int Qauntity;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "purchase_id",nullable = false)
     private PurchaseOrderVO purchaseOrderVO;
 
-    @OneToMany
+    @OneToOne
     @JoinColumn(name = "drug_id",nullable = false)
-    private Set<DrugVO> drugVO;
+    private DrugVO drugVO;
 
     public PurchaseItemVO() {
 
     }
 
-    public PurchaseItemVO(int qauntity, PurchaseOrderVO purchaseOrderVO, Set<DrugVO> drugVO) {
+    public PurchaseItemVO(int qauntity, PurchaseOrderVO purchaseOrderVO, DrugVO drugVO) {
         Qauntity = qauntity;
         this.purchaseOrderVO = purchaseOrderVO;
         this.drugVO = drugVO;
@@ -58,11 +58,11 @@ public class PurchaseItemVO implements Serializable{
         this.purchaseOrderVO = purchaseOrderVO;
     }
 
-    public Set<DrugVO> getDrugVO() {
+    public DrugVO getDrugVO() {
         return drugVO;
     }
 
-    public void setDrugVO(Set<DrugVO> drugVO) {
+    public void setDrugVO(DrugVO drugVO) {
         this.drugVO = drugVO;
     }
 

@@ -30,7 +30,7 @@ public class OutletVO implements Serializable{
     private String City;
 
     @ManyToOne
-    @JoinColumn(name  = "comanyId")
+    @JoinColumn(name  = "comanyId",nullable = false)
     private CompanyVO companyVO;
 
     public OutletVO(String outletName, String contactNumberOne, String contactNumberTwo, String addressLine, String state, String city, CompanyVO comanyVO) {

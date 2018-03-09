@@ -8,7 +8,7 @@ import java.io.Serializable;
 public class SupplierVO implements Serializable {
 
     @Id
-    @Column(name = "id",nullable = false)
+    @Column(name = "supplier_id",nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
