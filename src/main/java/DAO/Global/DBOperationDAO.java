@@ -26,7 +26,7 @@ public class DBOperationDAO extends PersistenceDAO {
         currentSession.close();
     }
     public void closeCurrentSessionWithTransaction(){
-        getCurrentTransaction().commit();;
+        getCurrentTransaction().commit();
         getCurrentSession().close();
     }
 
@@ -52,8 +52,8 @@ public class DBOperationDAO extends PersistenceDAO {
         return getCurrentSession().load(type,_id);
     }
 
-    public void insert(Object object){
-        getCurrentSession().save(object);
+    public Integer insert(Object object){
+        return (Integer) getCurrentSession().save(object);
     }
 
     public void update(Object object){

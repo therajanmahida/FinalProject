@@ -27,29 +27,29 @@ public class OutletDAO {
 
     public List<OutletVO> getOutletVOListByNameAndCompnany(String _outlet_name,int _company_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id = "+_company_id+" and OutletName = '"+_outlet_name+"'");
+        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id = "+_company_id+" and outletName = '"+_outlet_name+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }
 
     public List<OutletVO> getOutletVOListByContactNumberAndCompany(String _contact,int _company_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_company_id+" and ContactNumberOne='"+_contact+"'");
-        list.addAll(dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_company_id+" and ContactNumberTwo='"+_contact+"'"));
+        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_company_id+" and contactNumberOne='"+_contact+"'");
+        list.addAll(dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_company_id+" and contactNumberTwo='"+_contact+"'"));
         dbOperationDAO.closeCurrentSession();
         return list;
     }
 
     public List<OutletVO> getOutletVOListByStateAndCompany(String _state,int _comapny_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_comapny_id+" and State='"+_state+"'");
+        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_comapny_id+" and state='"+_state+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }
 
     public List<OutletVO> getOutletVOListByCityAndCompanyId(String _city,int _comapny_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_comapny_id+" and City='"+_city+"'");
+        list = dbOperationDAO.getList("from VO.OutletVO where companyVO.id="+_comapny_id+" and city='"+_city+"'");
         dbOperationDAO.closeCurrentSession();;
         return list;
     }

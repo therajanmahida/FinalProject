@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-      <% response.sendRedirect(request.getServletContext().getContextPath()+"/login"); %>
+      <% response.sendRedirect(request.getServletContext().getContextPath()+"/dashboard"); %>
   </body>
 </html>

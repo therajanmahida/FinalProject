@@ -10,6 +10,10 @@ public class DrugDAO {
     DBOperationDAO dbOperationDAO;
     List<DrugVO> list;
 
+    public DrugDAO(){
+        this.dbOperationDAO = new DBOperationDAO();
+    }
+
     public List<DrugVO> getDrugVOList(){
         dbOperationDAO.openCurrentSession();
         list = dbOperationDAO.getList("from VO.DrugVO");
@@ -38,6 +42,13 @@ public class DrugDAO {
         return list;
     }
 
+    public List<DrugVO> getDrugVOListByDrugId(int _drug_id){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.DrugVO where id="+_drug_id);
+        dbOperationDAO.closeCurrentSession();
+        return list;
+    }
+
     public List<DrugVO> getDrugVOListByDrugState(int _company_id , DrugVO.State drugState){
         dbOperationDAO.openCurrentSession();
         list = dbOperationDAO.getList("from VO.DrugVO where companyVO.id="+_company_id+" and state='"+drugState+"'");
@@ -58,10 +69,11 @@ public class DrugDAO {
         dbOperationDAO.closeCurrentSessionWithTransaction();
     }
 
-    public void insert(DrugVO drugVO){
+    public Integer insert(DrugVO drugVO){
         dbOperationDAO.openCurrentSessionWithTransaction();
-        dbOperationDAO.insert(drugVO);
+        Integer id = dbOperationDAO.insert(drugVO);
         dbOperationDAO.closeCurrentSessionWithTransaction();
+        return id;
     }
 
     public void update(DrugVO drugVO,int _drug_id){

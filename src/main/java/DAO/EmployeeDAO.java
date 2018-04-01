@@ -25,7 +25,7 @@ public class EmployeeDAO {
 
     public List<EmployeeVO> getEmployeeVOListByName(String _employee_name) {
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.EmployeeVO where EmployeeName='"+_employee_name+"'");
+        list = dbOperationDAO.getList("from VO.EmployeeVO where employeeName='"+_employee_name+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }
@@ -58,14 +58,14 @@ public class EmployeeDAO {
 
     public List<EmployeeVO> getEmployeeVOListByWorkingStatus(EmployeeVO.WorkingStatus _status){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.EmployeeVO where CurrentStatus='"+_status+"'");
+        list = dbOperationDAO.getList("from VO.EmployeeVO where currentStatus='"+_status+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }
 
     public List<EmployeeVO> getEmployeeVOListByJoiningDate(Date date){
         dbOperationDAO.openCurrentSession();
-        Query query = dbOperationDAO.getCurrentSession().createQuery("from VO.EmployeeVO where JoiningDate = :date");
+        Query query = dbOperationDAO.getCurrentSession().createQuery("from VO.EmployeeVO where joiningDate = :date");
         query.setDate("date",date);
         list = query.list();
         dbOperationDAO.closeCurrentSession();
@@ -74,7 +74,7 @@ public class EmployeeDAO {
 
     public List<EmployeeVO> getEmployeeVOListByDesignation(EmployeeVO.Designation _designation){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.EmployeeVO where Designation='"+_designation.toString()+"'");
+        list = dbOperationDAO.getList("from VO.EmployeeVO where designation='"+_designation.toString()+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }

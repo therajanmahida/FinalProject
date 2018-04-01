@@ -5,42 +5,42 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "outlet")
-public class OutletVO implements Serializable{
+public class OutletVO implements Serializable {
     @Id
-    @Column(name = "id",nullable = false)
+    @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "outlet_name",nullable = false)
-    private String OutletName;
+    @Column(name = "outlet_name", nullable = false)
+    private String outletName;
 
-    @Column(name = "contact_number_one",nullable = false,unique = true)
-    private String ContactNumberOne;
+    @Column(name = "contact_number_one", nullable = false, unique = true)
+    private String contactNumberOne;
 
-    @Column(name = "contact_number_two",unique = true)
-    private String ContactNumberTwo;
+    @Column(name = "contact_number_two", unique = true)
+    private String contactNumberTow;
 
-    @Column(name ="address_line",nullable = false)
-    private String AddressLine;
+    @Column(name = "address_line", nullable = false)
+    private String addressLine;
 
-    @Column(name="state",nullable = false)
-    private String State;
+    @Column(name = "state", nullable = false)
+    private String state;
 
-    @Column(name="city",nullable = false)
-    private String City;
+    @Column(name = "city", nullable = false)
+    private String city;
 
     @ManyToOne
-    @JoinColumn(name  = "comanyId",nullable = false)
+    @JoinColumn(name = "comanyId", nullable = false)
     private CompanyVO companyVO;
 
-    public OutletVO(String outletName, String contactNumberOne, String contactNumberTwo, String addressLine, String state, String city, CompanyVO comanyVO) {
-        OutletName = outletName;
-        ContactNumberOne = contactNumberOne;
-        ContactNumberTwo = contactNumberTwo;
-        AddressLine = addressLine;
-        State = state;
-        City = city;
-        this.companyVO = comanyVO;
+    public OutletVO(String outletName, String contactNumberOne, String contactNumberTow, String addressLine, String state, String city, CompanyVO companyVO) {
+        this.outletName = outletName;
+        this.contactNumberOne = contactNumberOne;
+        this.contactNumberTow = contactNumberTow;
+        this.addressLine = addressLine;
+        this.state = state;
+        this.city = city;
+        this.companyVO = companyVO;
     }
 
     public OutletVO() {
@@ -55,58 +55,58 @@ public class OutletVO implements Serializable{
     }
 
     public String getOutletName() {
-        return OutletName;
+        return outletName;
     }
 
     public void setOutletName(String outletName) {
-        OutletName = outletName;
+        this.outletName = outletName;
     }
 
     public String getContactNumberOne() {
-        return ContactNumberOne;
+        return contactNumberOne;
     }
 
     public void setContactNumberOne(String contactNumberOne) {
-        ContactNumberOne = contactNumberOne;
+        this.contactNumberOne = contactNumberOne;
     }
 
-    public String getContactNumberTwo() {
-        return ContactNumberTwo;
+    public String getContactNumberTow() {
+        return contactNumberTow;
     }
 
-    public void setContactNumberTwo(String contactNumberTwo) {
-        ContactNumberTwo = contactNumberTwo;
+    public void setContactNumberTow(String contactNumberTow) {
+        this.contactNumberTow = contactNumberTow;
     }
 
     public String getAddressLine() {
-        return AddressLine;
+        return addressLine;
     }
 
     public void setAddressLine(String addressLine) {
-        AddressLine = addressLine;
+        this.addressLine = addressLine;
     }
 
     public String getState() {
-        return State;
+        return state;
     }
 
     public void setState(String state) {
-        State = state;
+        this.state = state;
     }
 
     public String getCity() {
-        return City;
+        return city;
     }
 
     public void setCity(String city) {
-        City = city;
+        this.city = city;
     }
 
-    public CompanyVO getComanyVO() {
+    public CompanyVO getCompanyVO() {
         return companyVO;
     }
 
-    public void setComanyVO(CompanyVO comanyVO) {
-        this.companyVO = comanyVO;
+    public void setCompanyVO(CompanyVO companyVO) {
+        this.companyVO = companyVO;
     }
 }

@@ -14,38 +14,38 @@ public class CompanyVO implements Serializable{
     private int id;
 
     @Column(name = "company_name",nullable = false,unique = true)
-    private String CompanyName;
+    private String companyName;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "established_date")
-    private Date EstablishedDate;
+    private Date establishedDate;
 
     @Column(name = "gstin_number",nullable = false,unique = true)
-    private String GstNumber;
+    private String gstNumber;
 
     @Column(name ="contact_no_one",nullable = false,unique = true)
-    private String ContactNumberOne;
+    private String contactNumberOne;
 
     @Column(name ="contact_no_two",unique = true)
-    private String ContactNumberTwo;
+    private String contactNumberTwo;
 
     @Column(name ="email_id",nullable = false,unique = true)
-    private String EmailId;
+    private String emailId;
 
     @Column(name = "total_cash",nullable = false)
-    private double TotalCash;
+    private double totalCash;
 
     public CompanyVO() {
     }
 
     public CompanyVO(String companyName, Date establishedDate, String gstNumber, String contactNumberOne, String contactNumberTwo, String emailId, double totalCash) {
-        CompanyName = companyName;
-        EstablishedDate = establishedDate;
-        GstNumber = gstNumber;
-        ContactNumberOne = contactNumberOne;
-        ContactNumberTwo = contactNumberTwo;
-        EmailId = emailId;
-        TotalCash = totalCash;
+        this.companyName = companyName;
+        this.establishedDate = establishedDate;
+        this.gstNumber = gstNumber;
+        this.contactNumberOne = contactNumberOne;
+        this.contactNumberTwo = contactNumberTwo;
+        this.emailId = emailId;
+        this.totalCash = totalCash;
     }
 
     public int getId() {
@@ -57,72 +57,72 @@ public class CompanyVO implements Serializable{
     }
 
     public String getCompanyName() {
-        return CompanyName;
+        return companyName;
     }
 
     public void setCompanyName(String companyName) {
-        CompanyName = companyName;
+        this.companyName = companyName;
     }
 
     public Date getEstablishedDate() {
-        return EstablishedDate;
+        return establishedDate;
     }
 
     public void setEstablishedDate(Date establishedDate) {
-        EstablishedDate = establishedDate;
+        this.establishedDate = establishedDate;
     }
 
     public String getGstNumber() {
-        return GstNumber;
+        return gstNumber;
     }
 
     public void setGstNumber(String gstNumber) {
-        GstNumber = gstNumber;
+        this.gstNumber = gstNumber;
     }
 
     public String getContactNumberOne() {
-        return ContactNumberOne;
+        return contactNumberOne;
     }
 
     public void setContactNumberOne(String contactNumberOne) {
-        ContactNumberOne = contactNumberOne;
+        this.contactNumberOne = contactNumberOne;
     }
 
     public String getContactNumberTwo() {
-        return ContactNumberTwo;
+        return contactNumberTwo;
     }
 
     public void setContactNumberTwo(String contactNumberTwo) {
-        ContactNumberTwo = contactNumberTwo;
+        this.contactNumberTwo = contactNumberTwo;
     }
 
     public String getEmailId() {
-        return EmailId;
+        return emailId;
     }
 
     public void setEmailId(String emailId) {
-        EmailId = emailId;
+        this.emailId = emailId;
     }
 
     public double getTotalCash() {
-        return TotalCash;
+        return totalCash;
     }
 
     public void setTotalCash(double totalCash) {
-        TotalCash = totalCash;
+        this.totalCash = totalCash;
     }
 
     @Override
     public String toString() {
         return "CompanyVO{" +
                 "id=" + id +
-                ", CompanyName='" + CompanyName + '\'' +
-                ", EstablishedDate=" + EstablishedDate +
-                ", GstNumber='" + GstNumber + '\'' +
-                ", ContactNumberOne='" + ContactNumberOne + '\'' +
-                ", ContactNumberTwo='" + ContactNumberTwo + '\'' +
-                ", EmailId='" + EmailId + '\'' +
-                ", TotalCash=" + TotalCash +
+                ", companyName='" + companyName + '\'' +
+                ", establishedDate=" + establishedDate +
+                ", gstNumber='" + gstNumber + '\'' +
+                ", contactNumberOne='" + contactNumberOne + '\'' +
+                ", contactNumberTwo='" + contactNumberTwo + '\'' +
+                ", emailId='" + emailId + '\'' +
+                ", totalCash=" + totalCash +
                 '}';
     }
 }

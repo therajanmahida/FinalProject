@@ -18,45 +18,45 @@ public class EmployeeVO implements Serializable {
     private int id;
 
     @Column(name = "employee_name",nullable = false)
-    private String EmployeeName;
+    private String employeeName;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "designation",nullable = false)
-    private Designation Designation;
+    private Designation designation;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "date_of_birth")
     private Date date;
 
-    @Column(name = "contact_number_one",nullable = false,unique = true)
-    private String ContactNumberOne;
+    @Column(name = "contact_number_one",nullable = false)
+    private String contactNumberOne;
 
-    @Column(name = "conatact_number_two",unique = true)
-    private String ContactNumberTwo;
+    @Column(name = "conatact_number_two")
+    private String contactNumberTwo;
 
     @Column(name = "address",nullable = false)
-    private String Address;
+    private String address;
 
     @Column(name ="city",nullable = false)
-    private String City;
+    private String city;
 
     @Column(name = "state",nullable = false)
-    private String State;
+    private String state;
 
-    @Column(name = "aadhaar_no",nullable = false,unique = true)
-    private String AadhaarNo;
+    @Column(name = "aadhaar_no",nullable = false)
+    private String aadhaarNo;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "joining_date",nullable = false)
-    private Date JoiningDate;
+    private Date joiningDate;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "leaving_date")
-    private Date LeavingDate;
+    private Date leavingDate;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "current_status",nullable = false)
-    private WorkingStatus CurrentStatus;
+    private WorkingStatus currentStatus;
 
     @OneToOne
     @JoinColumn(name = "outlet_id")
@@ -78,6 +78,25 @@ public class EmployeeVO implements Serializable {
 
     }
 
+    public EmployeeVO(String employeeName, Designation designation, Date date, String contactNumberOne, String contactNumberTwo, String address, String city, String state, String aadhaarNo, Date joiningDate, Date leavingDate, WorkingStatus currentStatus, OutletVO outletVO, CompanyVO companyVO, List<DepartmentVO> departmentVO, SalaryVO salaryVO) {
+        this.employeeName = employeeName;
+        this.designation = designation;
+        this.date = date;
+        this.contactNumberOne = contactNumberOne;
+        this.contactNumberTwo = contactNumberTwo;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.aadhaarNo = aadhaarNo;
+        this.joiningDate = joiningDate;
+        this.leavingDate = leavingDate;
+        this.currentStatus = currentStatus;
+        this.outletVO = outletVO;
+        this.companyVO = companyVO;
+        this.departmentVO = departmentVO;
+        this.salaryVO = salaryVO;
+    }
+
     public int getId() {
         return id;
     }
@@ -87,19 +106,19 @@ public class EmployeeVO implements Serializable {
     }
 
     public String getEmployeeName() {
-        return EmployeeName;
+        return employeeName;
     }
 
     public void setEmployeeName(String employeeName) {
-        EmployeeName = employeeName;
+        this.employeeName = employeeName;
     }
 
-    public EmployeeVO.Designation getDesignation() {
-        return Designation;
+    public Designation getDesignation() {
+        return designation;
     }
 
-    public void setDesignation(EmployeeVO.Designation designation) {
-        Designation = designation;
+    public void setDesignation(Designation designation) {
+        this.designation = designation;
     }
 
     public Date getDate() {
@@ -111,75 +130,75 @@ public class EmployeeVO implements Serializable {
     }
 
     public String getContactNumberOne() {
-        return ContactNumberOne;
+        return contactNumberOne;
     }
 
     public void setContactNumberOne(String contactNumberOne) {
-        ContactNumberOne = contactNumberOne;
+        this.contactNumberOne = contactNumberOne;
     }
 
     public String getContactNumberTwo() {
-        return ContactNumberTwo;
+        return contactNumberTwo;
     }
 
     public void setContactNumberTwo(String contactNumberTwo) {
-        ContactNumberTwo = contactNumberTwo;
+        this.contactNumberTwo = contactNumberTwo;
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     public void setAddress(String address) {
-        Address = address;
+        this.address = address;
     }
 
     public String getCity() {
-        return City;
+        return city;
     }
 
     public void setCity(String city) {
-        City = city;
+        this.city = city;
     }
 
     public String getState() {
-        return State;
+        return state;
     }
 
     public void setState(String state) {
-        State = state;
+        this.state = state;
     }
 
     public String getAadhaarNo() {
-        return AadhaarNo;
+        return aadhaarNo;
     }
 
     public void setAadhaarNo(String aadhaarNo) {
-        AadhaarNo = aadhaarNo;
+        this.aadhaarNo = aadhaarNo;
     }
 
     public Date getJoiningDate() {
-        return JoiningDate;
+        return joiningDate;
     }
 
     public void setJoiningDate(Date joiningDate) {
-        JoiningDate = joiningDate;
+        this.joiningDate = joiningDate;
     }
 
     public Date getLeavingDate() {
-        return LeavingDate;
+        return leavingDate;
     }
 
     public void setLeavingDate(Date leavingDate) {
-        LeavingDate = leavingDate;
+        this.leavingDate = leavingDate;
     }
 
     public WorkingStatus getCurrentStatus() {
-        return CurrentStatus;
+        return currentStatus;
     }
 
     public void setCurrentStatus(WorkingStatus currentStatus) {
-        CurrentStatus = currentStatus;
+        this.currentStatus = currentStatus;
     }
 
     public OutletVO getOutletVO() {
@@ -190,12 +209,12 @@ public class EmployeeVO implements Serializable {
         this.outletVO = outletVO;
     }
 
-    public CompanyVO getComanyVO() {
+    public CompanyVO getCompanyVO() {
         return companyVO;
     }
 
-    public void setComanyVO(CompanyVO comanyVO) {
-        this.companyVO = comanyVO;
+    public void setCompanyVO(CompanyVO companyVO) {
+        this.companyVO = companyVO;
     }
 
     public List<DepartmentVO> getDepartmentVO() {
@@ -218,20 +237,20 @@ public class EmployeeVO implements Serializable {
     public String toString() {
         return "EmployeeVO{" +
                 "id=" + id +
-                ", EmployeeName='" + EmployeeName + '\'' +
-                ", Designation=" + Designation +
+                ", employeeName='" + employeeName + '\'' +
+                ", designation=" + designation +
                 ", date=" + date +
-                ", ContactNumberOne='" + ContactNumberOne + '\'' +
-                ", ContactNumberTwo='" + ContactNumberTwo + '\'' +
-                ", Address='" + Address + '\'' +
-                ", City='" + City + '\'' +
-                ", State='" + State + '\'' +
-                ", AadhaarNo='" + AadhaarNo + '\'' +
-                ", JoiningDate=" + JoiningDate +
-                ", LeavingDate=" + LeavingDate +
-                ", CurrentStatus=" + CurrentStatus +
+                ", contactNumberOne='" + contactNumberOne + '\'' +
+                ", contactNumberTwo='" + contactNumberTwo + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", aadhaarNo='" + aadhaarNo + '\'' +
+                ", joiningDate=" + joiningDate +
+                ", leavingDate=" + leavingDate +
+                ", currentStatus=" + currentStatus +
                 ", outletVO=" + outletVO +
-                ", comanyVO=" + companyVO +
+                ", companyVO=" + companyVO +
                 ", departmentVO=" + departmentVO +
                 ", salaryVO=" + salaryVO +
                 '}';

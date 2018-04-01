@@ -3,7 +3,7 @@ package DAO;
 import DAO.Global.DBOperationDAO;
 import VO.MessageToVO;
 
-import java.util.List;
+import java.util.*;
 
 public class MessageToDAO {
     MessageToVO messageToVO;
@@ -17,20 +17,49 @@ public class MessageToDAO {
     public List<MessageToVO> getMessageToVOList(){
         dbOperationDAO.openCurrentSession();
         list = dbOperationDAO.getList("from VO.MessageToVO");
-        dbOperationDAO.closeCurrentSession();;
+        dbOperationDAO.closeCurrentSession();
+        return list;
+    }
+
+    public List<MessageToVO> getMessageToVOList(int _message_to_id){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.MessageToVO where id="+_message_to_id);
+        dbOperationDAO.closeCurrentSession();
         return list;
     }
 
     public List<MessageToVO> getMessageToVOListByUserTo(int _user_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.MessageToVO where UserTo.id ="+_user_id);
-        dbOperationDAO.closeCurrentSession();;
+        list = dbOperationDAO.getList("from VO.MessageToVO where userTo.id ="+_user_id);
+        dbOperationDAO.closeCurrentSession();
         return list;
     }
 
+    public Long getTodayMessage(int _user_id){
+        list = getMessageToVOListByUserTo(_user_id);
+        Date today = new Date();
+        GregorianCalendar cal = new GregorianCalendar();
+        cal.setTime(today);
+        cal.add(Calendar.DATE,-1);
+        Date previous = cal.getTime();
+
+        Long today_message  = list.stream().filter(messageToVO1 -> (messageToVO1.getMessageVO().getMessageDate().compareTo(today) < 1 && messageToVO1.getMessageVO().getMessageDate().compareTo(previous) > -1)).count();
+        return today_message;
+    }
+
+    public Integer getTotolMessage(int _user_id){
+        return getMessageToVOListByUserTo(_user_id).size();
+    }
+
+    public Integer getUnreadMessage(int _user_id){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.MessageToVO where isRead="+0);
+        dbOperationDAO.closeCurrentSession();
+        return list.size();
+    }
     public List<MessageToVO> getMessageToVOListByUserFrom(int _user_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.MessageToVO where UserFrom.id = "+_user_id);
+        list = dbOperationDAO.getList("from VO.MessageToVO where userFrom.id = "+_user_id);
         dbOperationDAO.closeCurrentSession();;
         return list;
     }

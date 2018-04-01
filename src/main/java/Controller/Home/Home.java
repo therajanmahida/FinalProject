@@ -19,7 +19,7 @@ public class Home extends HttpServlet {
 
 
 
-        request.getRequestDispatcher("/WEB-INF/jsp/home.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/jsp/check.jsp").forward(request,response);
 
 
 

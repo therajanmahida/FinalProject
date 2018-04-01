@@ -1,5 +1,6 @@
 package DAO;
 
+import Controller.Supplier.Supplier;
 import DAO.Global.DBOperationDAO;
 import VO.SupplierVO;
 
@@ -21,17 +22,25 @@ public class SupplierDAO  {
         return list;
     }
 
-    public List<SupplierVO> getSupplierVOList(int _company_id){
+    public List<SupplierVO> getSupplierVOListBySupplierID(int _supplier_id){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO,SupplierVO where companyVO.id="+_company_id+"");
+        list = dbOperationDAO.getList("from VO.SupplierVO where id="+_supplier_id);
         dbOperationDAO.closeCurrentSession();
         return list;
     }
 
-    public void insert(SupplierVO supplierVO){
+    public List<SupplierVO> getSupplierVOList(int _company_id){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.SupplierVO where companyVO.id="+_company_id+"");
+        dbOperationDAO.closeCurrentSession();
+        return list;
+    }
+
+    public Integer insert(SupplierVO supplierVO){
         dbOperationDAO.openCurrentSessionWithTransaction();
-        dbOperationDAO.insert(supplierVO);
+        Integer id  = dbOperationDAO.insert(supplierVO);
         dbOperationDAO.closeCurrentSessionWithTransaction();
+        return id;
     }
 
     public void deleteById(int _supplier_id){

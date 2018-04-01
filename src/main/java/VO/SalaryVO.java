@@ -6,38 +6,42 @@ import java.io.Serializable;
 @Entity
 @Table(name = "salary")
 public class SalaryVO implements Serializable {
-    public enum Position{HEAD,SENIOR,JUNIOR}
+    public enum Position {HEAD, SENIOR, JUNIOR}
 
     @Id
-    @Column(name = "id",nullable = false)
+    @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "basic_pay",nullable = false)
-    private double BasicPay;
+    @Column(name = "salary_name",nullable = false)
+    private String salaryName;
 
-    @Column(name = "cost_to_company",nullable = false)
-    private double CostToCompany;
+    @Column(name = "basic_pay", nullable = false)
+    private double basicPay;
+
+    @Column(name = "cost_to_company", nullable = false)
+    private double costToCompany;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "salary_level",nullable = false)
-    private Position SalaryLevel;
+    @Column(name = "salary_level", nullable = false)
+    private Position salaryLevel;
 
     @ManyToOne
-    @JoinColumn(name="company_id")
+    @JoinColumn(name = "company_id")
     private CompanyVO comanyVO;
 
     @ManyToOne
-    @JoinColumn(name="department_id")
+    @JoinColumn(name = "department_id")
     private DepartmentVO departmentVO;
 
     public SalaryVO() {
     }
 
-    public SalaryVO(double basicPay, double costToCompany, Position salaryLevel, CompanyVO comanyVO, DepartmentVO departmentVO) {
-        BasicPay = basicPay;
-        CostToCompany = costToCompany;
-        SalaryLevel = salaryLevel;
+    public SalaryVO(String salaryName, double basicPay, double costToCompany, Position salaryLevel, CompanyVO comanyVO, DepartmentVO departmentVO) {
+        this.salaryName = salaryName;
+        this.basicPay = basicPay;
+        this.costToCompany = costToCompany;
+        this.salaryLevel = salaryLevel;
         this.comanyVO = comanyVO;
         this.departmentVO = departmentVO;
     }
@@ -50,28 +54,36 @@ public class SalaryVO implements Serializable {
         this.id = id;
     }
 
+    public String getSalaryName() {
+        return salaryName;
+    }
+
+    public void setSalaryName(String salaryName) {
+        this.salaryName = salaryName;
+    }
+
     public double getBasicPay() {
-        return BasicPay;
+        return basicPay;
     }
 
     public void setBasicPay(double basicPay) {
-        BasicPay = basicPay;
+        this.basicPay = basicPay;
     }
 
     public double getCostToCompany() {
-        return CostToCompany;
+        return costToCompany;
     }
 
     public void setCostToCompany(double costToCompany) {
-        CostToCompany = costToCompany;
+        this.costToCompany = costToCompany;
     }
 
     public Position getSalaryLevel() {
-        return SalaryLevel;
+        return salaryLevel;
     }
 
     public void setSalaryLevel(Position salaryLevel) {
-        SalaryLevel = salaryLevel;
+        this.salaryLevel = salaryLevel;
     }
 
     public CompanyVO getComanyVO() {
@@ -88,5 +100,18 @@ public class SalaryVO implements Serializable {
 
     public void setDepartmentVO(DepartmentVO departmentVO) {
         this.departmentVO = departmentVO;
+    }
+
+    @Override
+    public String toString() {
+        return "SalaryVO{" +
+                "id=" + id +
+                ", salaryName='" + salaryName + '\'' +
+                ", basicPay=" + basicPay +
+                ", costToCompany=" + costToCompany +
+                ", salaryLevel=" + salaryLevel +
+                ", comanyVO=" + comanyVO +
+                ", departmentVO=" + departmentVO +
+                '}';
     }
 }

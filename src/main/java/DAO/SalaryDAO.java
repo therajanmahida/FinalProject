@@ -45,7 +45,7 @@ public class SalaryDAO {
 
     public List<SalaryVO> getSalaryVOListByLevel(SalaryVO.Position _position){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.SalaryVO where SalaryLevel='"+_position.toString()+"'");
+        list = dbOperationDAO.getList("from VO.SalaryVO where salaryLevel='"+_position.toString()+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }

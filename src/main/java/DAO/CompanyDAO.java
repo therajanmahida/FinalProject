@@ -21,6 +21,15 @@ public class CompanyDAO {
         return list;
     }
 
+    public List<CompanyVO> getCompanyById(int _company_id){
+        dbOperationDAO.openCurrentSession();
+        list = dbOperationDAO.getList("from VO.CompanyVO where id="+_company_id);
+        dbOperationDAO.closeCurrentSession();
+        return list;
+
+
+    }
+
     public List<CompanyVO> getCompanyVOListByName(String _name){
         dbOperationDAO.openCurrentSession();
         list = dbOperationDAO.getList("from VO.CompanyVO where CompanyName='"+_name+"'");

@@ -18,23 +18,39 @@ public class MessageToVO implements Serializable{
 
     @OneToOne
     @JoinColumn(name = "user_from",nullable = false)
-    private UserVO UserFrom;
+    private UserVO userFrom;
 
     @OneToOne
     @JoinColumn(name = "user_to",nullable = false)
-    private UserVO UserTo;
+    private UserVO userTo;
+
+    @Column(name="isRead")
+    private Integer isRead;
 
     public MessageToVO() {
 
     }
 
-    public MessageToVO(MessageVO messageVO, UserVO userFrom, UserVO userTo) {
+    @Override
+    public String toString() {
+        return "MessageToVO{" +
+                "id=" + id +
+                ", messageVO=" + messageVO +
+                ", userFrom=" + userFrom +
+                ", userTo=" + userTo +
+                ", isRead=" + isRead +
+                '}';
+    }
+
+    public MessageToVO(MessageVO messageVO, UserVO userFrom, UserVO userTo, Integer isRead) {
         this.messageVO = messageVO;
-        UserFrom = userFrom;
-        UserTo = userTo;
+        this.userFrom = userFrom;
+        this.userTo = userTo;
+        this.isRead = isRead;
     }
 
     public int getId() {
+
         return id;
     }
 
@@ -51,18 +67,26 @@ public class MessageToVO implements Serializable{
     }
 
     public UserVO getUserFrom() {
-        return UserFrom;
+        return userFrom;
     }
 
     public void setUserFrom(UserVO userFrom) {
-        UserFrom = userFrom;
+        this.userFrom = userFrom;
     }
 
     public UserVO getUserTo() {
-        return UserTo;
+        return userTo;
     }
 
     public void setUserTo(UserVO userTo) {
-        UserTo = userTo;
+        this.userTo = userTo;
+    }
+
+    public Integer getIsRead() {
+        return isRead;
+    }
+
+    public void setIsRead(Integer isRead) {
+        this.isRead = isRead;
     }
 }

@@ -12,56 +12,71 @@ import javax.ws.rs.core.Response;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Path("/department")
-public class DepartmentREST
-{
+public class DepartmentREST {
     static final Gson gson = new GsonBuilder().setDateFormat("MMM dd, yyyy").create();
 
     @GET
     @Path("/")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getDepartmentList(){
+    public Response getDepartmentList() {
         DepartmentDAO departmentDAO = new DepartmentDAO();
         List<DepartmentVO> list = departmentDAO.getDepartmentVOList();
-        if(list.size() == 0) {
+        if (list.size() == 0) {
             return Response.status(Response.Status.NOT_FOUND).entity("No Company present").build();
-        }else{
-            return Response.ok(gson.toJson(list),MediaType.APPLICATION_JSON).build();
+        } else {
+            return Response.ok(gson.toJson(list), MediaType.APPLICATION_JSON).build();
         }
+    }
+
+    @GET
+    @Path("/id/{param}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getDepartmentListById(@PathParam("param") int _department_id){
+        DepartmentDAO departmentDAO = new DepartmentDAO();
+        List<DepartmentVO> list = departmentDAO.getDepartmentVOList();
+        list  = list.stream().filter(departmentVO -> departmentVO.getId()==_department_id).collect(Collectors.toList());
+        if (list.size() == 0) {
+            return Response.status(Response.Status.NOT_FOUND).entity("No Department present with id = "+_department_id).build();
+        } else {
+            return Response.ok(gson.toJson(list.get(0)), MediaType.APPLICATION_JSON).build();
+        }
+
     }
 
     @GET
     @Path("/name/{param}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getDepartmentListByName(@PathParam("param") String _name){
+    public Response getDepartmentListByName(@PathParam("param") String _name) {
         DepartmentDAO departmentDAO = new DepartmentDAO();
         List<DepartmentVO> list = departmentDAO.getDepartmentVOListByName(_name);
-        if(list.size()==0) {
-            return Response.status(Response.Status.NOT_FOUND).entity(gson.toJson("No department with name "+_name+" found.")).build();
-        }else{
-            return Response.ok(gson.toJson(list),MediaType.APPLICATION_JSON).build();
+        if (list.size() == 0) {
+            return Response.status(Response.Status.NOT_FOUND).entity(gson.toJson("No department with name " + _name + " found.")).build();
+        } else {
+            return Response.ok(gson.toJson(list), MediaType.APPLICATION_JSON).build();
         }
     }
 
     @GET
     @Path("/company/{param}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getDepartmentListByCompany(@PathParam("param") int  _company_id){
+    public Response getDepartmentListByCompany(@PathParam("param") int _company_id) {
         DepartmentDAO departmentDAO = new DepartmentDAO();
         List<DepartmentVO> list = departmentDAO.getDepartmentVOListByCompanyId(_company_id);
-        if(list.size()==0) {
-            return Response.status(Response.Status.NOT_FOUND).entity(gson.toJson("No department with name "+_company_id+" found.")).build();
-        }else{
-            return Response.ok(gson.toJson(list),MediaType.APPLICATION_JSON).build();
+        if (list.size() == 0) {
+            return Response.status(Response.Status.NOT_FOUND).entity(gson.toJson("No department with name " + _company_id + " found.")).build();
+        } else {
+            return Response.ok(gson.toJson(list), MediaType.APPLICATION_JSON).build();
         }
     }
 
     @POST
     @Path(("/post"))
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response insertDepartment(String _inputdata){
-        DepartmentVO departmentVO = gson.fromJson(_inputdata,DepartmentVO.class);
+    public Response insertDepartment(String _inputdata) {
+        DepartmentVO departmentVO = gson.fromJson(_inputdata, DepartmentVO.class);
         DepartmentDAO departmentDAO = new DepartmentDAO();
         departmentDAO.insert(departmentVO);
         return Response.ok().build();
@@ -70,9 +85,10 @@ public class DepartmentREST
     @POST
     @Path("/post/list")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response insertDepartemntList(String _inputdata){
-        Type listType = new TypeToken<ArrayList<DepartmentVO>>(){}.getType();
-        List<DepartmentVO> departmentVOList = gson.fromJson(_inputdata,listType);
+    public Response insertDepartemntList(String _inputdata) {
+        Type listType = new TypeToken<ArrayList<DepartmentVO>>() {
+        }.getType();
+        List<DepartmentVO> departmentVOList = gson.fromJson(_inputdata, listType);
         DepartmentDAO departmentDAO = new DepartmentDAO();
         for (DepartmentVO departmentVO : departmentVOList) {
             departmentDAO.insert(departmentVO);
@@ -80,9 +96,10 @@ public class DepartmentREST
         return Response.ok().build();
     }
 
-    @DELETE
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
     @Path("/delete/{param}")
-    public Response deleteDepartment(@PathParam("param") int _department_id){
+    public Response deleteDepartment(@PathParam("param") int _department_id) {
         DepartmentDAO departmentDAO = new DepartmentDAO();
         departmentDAO.deleteById(_department_id);
         return Response.ok().build();
@@ -91,10 +108,10 @@ public class DepartmentREST
     @POST
     @Path("/update")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response updateUser(String _department_data){
-        DepartmentVO departmentVO = gson.fromJson(_department_data,DepartmentVO.class);
+    public Response updateUser(String _department_data) {
+        DepartmentVO departmentVO = gson.fromJson(_department_data, DepartmentVO.class);
         DepartmentDAO departmentDAO = new DepartmentDAO();
-        departmentDAO.update(departmentVO,departmentVO.getId());
+        departmentDAO.update(departmentVO, departmentVO.getId());
         return Response.ok().build();
     }
 

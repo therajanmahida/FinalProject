@@ -38,7 +38,7 @@ public class DepartmentDAO {
 
     public List<DepartmentVO> getDepartmentVOListByName(String _department_name){
         dbOperationDAO.openCurrentSession();
-        list = dbOperationDAO.getList("from VO.DepartmentVO where DepartmentName='"+_department_name+"'");
+        list = dbOperationDAO.getList("from VO.DepartmentVO where departmentName='"+_department_name+"'");
         dbOperationDAO.closeCurrentSession();
         return list;
     }

@@ -16,13 +16,13 @@ public class DrugVO implements Serializable {
     private int id;
 
     @Column(name = "item_name",nullable = false)
-    private String ItemName;
+    private String itemName;
 
     @Column(name = "item_description",nullable = false)
-    private String ItemDescription;
+    private String itemDescription;
 
     @Column(name = "dosage",nullable = false)
-    private String Dosage;
+    private String dosage;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "drug_type",nullable = false)
@@ -33,15 +33,15 @@ public class DrugVO implements Serializable {
     private State state;
 
     @Column(name = "buy_price",nullable = false)
-    private double BuyPrice;
+    private double buyPrice;
 
     @Column(name = "mrp",nullable = false)
-    private double MRP;
+    private double mRP;
 
     @Column(name = "expiry_duration",nullable = false)
-    private int ExpiryDuration;
+    private int expiryDuration;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "Drug_Supplier", joinColumns = { @JoinColumn(name = "id") } , inverseJoinColumns = { @JoinColumn(name = "supplier_id") })
     private Set<SupplierVO> supplierVO;
 
@@ -52,15 +52,15 @@ public class DrugVO implements Serializable {
     public DrugVO() {
     }
 
-    public DrugVO(String itemName, String itemDescription, String dosage, DrugType drugType, State state, double buyPrice, double MRP, int expiryDuration, Set<SupplierVO> supplierVO, CompanyVO companyVO) {
-        ItemName = itemName;
-        ItemDescription = itemDescription;
-        Dosage = dosage;
+    public DrugVO(String itemName, String itemDescription, String dosage, DrugType drugType, State state, double buyPrice, double mRP, int expiryDuration, Set<SupplierVO> supplierVO, CompanyVO companyVO) {
+        this.itemName = itemName;
+        this.itemDescription = itemDescription;
+        this.dosage = dosage;
         this.drugType = drugType;
         this.state = state;
-        BuyPrice = buyPrice;
-        this.MRP = MRP;
-        ExpiryDuration = expiryDuration;
+        this.buyPrice = buyPrice;
+        this.mRP = mRP;
+        this.expiryDuration = expiryDuration;
         this.supplierVO = supplierVO;
         this.companyVO = companyVO;
     }
@@ -74,27 +74,27 @@ public class DrugVO implements Serializable {
     }
 
     public String getItemName() {
-        return ItemName;
+        return itemName;
     }
 
     public void setItemName(String itemName) {
-        ItemName = itemName;
+        this.itemName = itemName;
     }
 
     public String getItemDescription() {
-        return ItemDescription;
+        return itemDescription;
     }
 
     public void setItemDescription(String itemDescription) {
-        ItemDescription = itemDescription;
+        this.itemDescription = itemDescription;
     }
 
     public String getDosage() {
-        return Dosage;
+        return dosage;
     }
 
     public void setDosage(String dosage) {
-        Dosage = dosage;
+        this.dosage = dosage;
     }
 
     public DrugType getDrugType() {
@@ -114,27 +114,27 @@ public class DrugVO implements Serializable {
     }
 
     public double getBuyPrice() {
-        return BuyPrice;
+        return buyPrice;
     }
 
     public void setBuyPrice(double buyPrice) {
-        BuyPrice = buyPrice;
+        this.buyPrice = buyPrice;
     }
 
-    public double getMRP() {
-        return MRP;
+    public double getmRP() {
+        return mRP;
     }
 
-    public void setMRP(double MRP) {
-        this.MRP = MRP;
+    public void setmRP(double mRP) {
+        this.mRP = mRP;
     }
 
     public int getExpiryDuration() {
-        return ExpiryDuration;
+        return expiryDuration;
     }
 
     public void setExpiryDuration(int expiryDuration) {
-        ExpiryDuration = expiryDuration;
+        this.expiryDuration = expiryDuration;
     }
 
     public Set<SupplierVO> getSupplierVO() {
@@ -151,5 +151,22 @@ public class DrugVO implements Serializable {
 
     public void setCompanyVO(CompanyVO companyVO) {
         this.companyVO = companyVO;
+    }
+
+    @Override
+    public String toString() {
+        return "DrugVO{" +
+                "id=" + id +
+                ", itemName='" + itemName + '\'' +
+                ", itemDescription='" + itemDescription + '\'' +
+                ", dosage='" + dosage + '\'' +
+                ", drugType=" + drugType +
+                ", state=" + state +
+                ", buyPrice=" + buyPrice +
+                ", mRP=" + mRP +
+                ", expiryDuration=" + expiryDuration +
+                ", supplierVO=" + supplierVO +
+                ", companyVO=" + companyVO +
+                '}';
     }
 }

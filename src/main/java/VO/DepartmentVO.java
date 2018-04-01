@@ -8,12 +8,12 @@ import java.io.Serializable;
 public class DepartmentVO implements Serializable {
 
     @Id
-    @Column(name = "department_id",nullable = false)
+    @Column(name = "department_id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "department_name",nullable = false)
-    private String DepartmentName;
+    @Column(name = "department_name", nullable = false)
+    private String departmentName;
 
     @ManyToOne
     @JoinColumn(name = "company_id")
@@ -23,9 +23,9 @@ public class DepartmentVO implements Serializable {
 
     }
 
-    public DepartmentVO(String departmentName, CompanyVO comanyVO) {
-        DepartmentName = departmentName;
-        this.companyVO = comanyVO;
+    public DepartmentVO(String departmentName, CompanyVO companyVO) {
+        this.departmentName = departmentName;
+        this.companyVO = companyVO;
     }
 
     public int getId() {
@@ -37,18 +37,18 @@ public class DepartmentVO implements Serializable {
     }
 
     public String getDepartmentName() {
-        return DepartmentName;
+        return departmentName;
     }
 
     public void setDepartmentName(String departmentName) {
-        DepartmentName = departmentName;
+        this.departmentName = departmentName;
     }
 
-    public CompanyVO getComanyVO() {
+    public CompanyVO getCompanyVO() {
         return companyVO;
     }
 
-    public void setComanyVO(CompanyVO comanyVO) {
-        this.companyVO = comanyVO;
+    public void setCompanyVO(CompanyVO companyVO) {
+        this.companyVO = companyVO;
     }
 }
