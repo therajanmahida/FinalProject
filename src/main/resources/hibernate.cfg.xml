@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">admin</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/PHARMA_ERP?userSSL=false</property>
+  <property name="hibernate.connection.username">root</property>
+  <!--<property name="hibernate.default_schema">student</property>-->
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.connection.pool_size">10</property>
+  <property name="current_session_context_class">thread</property>
+  <property name="hibernate.order_updates">true</property>
+  <property name="hibernate.order_inserts">true</property>
+  <property name="hibernate.jdbc.batch_size">100</property>
+  <property name="hibernate.jdbc.fetch_size">400</property>
+  <property name="hbm2ddl.auto"></property>
+
+
+      <mapping class="VO.UserVO"></mapping>
+      <mapping class="VO.TransactionVO"></mapping>
+      <mapping class="VO.SupplierVO"></mapping>
+      <mapping class="VO.SalaryVO"></mapping>
+      <mapping class="VO.ReminderVO"></mapping>
+      <mapping class="VO.PurchaseOrderVO"></mapping>
+      <mapping class="VO.PurchaseItemVO"></mapping>
+      <mapping class="VO.OutletVO"></mapping>
+      <mapping class="VO.MessageVO"></mapping>
+      <mapping class="VO.MessageToVO"></mapping>
+      <mapping class="VO.InventoryStocksVO"></mapping>
+      <mapping class="VO.EmployeeVO"></mapping>
+      <mapping class="VO.DrugVO"></mapping>
+      <mapping class="VO.DepartmentVO"></mapping>
+      <mapping class="VO.CostPaymentsVO"></mapping>
+      <mapping class="VO.ClientVO"></mapping>
+      <mapping class="VO.CompanyVO"></mapping>
+      <mapping class="VO.ClientOrderVO"></mapping>
+      <mapping class="VO.ClientOrderItemsVO"></mapping>
+      <mapping class="VO.DocumentVO"></mapping>
+      <mapping class="VO.FilesVO"></mapping>
+      <mapping class="VO.SupplierDocumentVO"></mapping>
+     <mapping class="VO.DrugDocumentVO"></mapping>
+
+
+ </session-factory>
+</hibernate-configuration>
