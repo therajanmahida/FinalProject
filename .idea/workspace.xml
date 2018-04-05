@@ -2,347 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Gradle : GradleThemeDemo : GradleThemeDemo-1.0-SNAPSHOT.war (exploded)" />
+      <artifact name="FinalProject:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b33d6a-ff4e-4805-9b34-4fc82fcedf10" name="Default" comment="">
+    <list default="true" id="4b16975f-49eb-49ca-81a9-308ccdf3dff5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/GradleThemeDemo_main.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/components.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/components.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/core.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/core.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/icons.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/icons.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/menu.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/menu.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/pages.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/pages.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/responsive.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/responsive.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/about.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/about.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/accept_database.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/accept_database.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_column.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_column.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_database.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_database.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_image.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_image.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_row.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/add_row.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/address_book.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/address_book.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/advance.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/advance.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/advertising.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/advertising.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/alarm_clock.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/alarm_clock.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/alphabetical_sorting_az.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/alphabetical_sorting_az.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/alphabetical_sorting_za.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/alphabetical_sorting_za.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/answers.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/answers.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/approval.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/approval.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/approve.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/approve.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/area_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/area_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/assistant.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/assistant.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/audio_file.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/audio_file.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/automatic.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/automatic.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/automotive.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/automotive.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bad_decision.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bad_decision.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bar_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bar_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bearish.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bearish.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/binoculars.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/binoculars.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/biohazard.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/biohazard.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/biomass.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/biomass.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/biotech.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/biotech.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bookmark.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bookmark.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/briefcase.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/briefcase.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/broken_link.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/broken_link.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bullish.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/bullish.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/business.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/business.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/business_contact.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/business_contact.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/businessman.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/businessman.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/businesswoman.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/businesswoman.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/butting_in.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/butting_in.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cable_release.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cable_release.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/calculator.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/calculator.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/calendar.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/calendar.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/call_transfer.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/call_transfer.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/callback.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/callback.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camcorder.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camcorder.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camcorder_pro.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camcorder_pro.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camera.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camera.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camera_addon.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camera_addon.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camera_identification.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/camera_identification.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cancel.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cancel.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/candle_sticks.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/candle_sticks.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/capacitor.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/capacitor.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cell_phone.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cell_phone.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/charge_battery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/charge_battery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/checkmark.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/checkmark.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/circuit.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/circuit.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/clapperboard.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/clapperboard.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/clear_filters.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/clear_filters.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/clock.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/clock.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/close_up_mode.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/close_up_mode.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cloth.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cloth.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/collaboration.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/collaboration.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/collapse.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/collapse.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/collect.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/collect.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/combo_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/combo_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/comments.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/comments.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/compact_camera.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/compact_camera.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/conference_call.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/conference_call.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/contacts.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/contacts.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/copyleft.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/copyleft.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/copyright.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/copyright.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/crystal_oscillator.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/crystal_oscillator.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/currency_exchange.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/currency_exchange.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cursor.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/cursor.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/customer_support.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/customer_support.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/dam.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/dam.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_backup.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_backup.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_configuration.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_configuration.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_encryption.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_encryption.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_protection.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_protection.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_recovery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_recovery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_sheet.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/data_sheet.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/database.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/database.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/debt.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/debt.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/decision.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/decision.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/delete_column.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/delete_column.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/delete_database.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/delete_database.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/delete_row.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/delete_row.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/department.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/department.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/deployment.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/deployment.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/diploma_1.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/diploma_1.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/diploma_2.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/diploma_2.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/disapprove.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/disapprove.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/disclaimer.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/disclaimer.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/dislike.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/dislike.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/display.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/display.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/do_not_inhale.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/do_not_inhale.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/do_not_insert.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/do_not_insert.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/do_not_mix.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/do_not_mix.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/document.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/document.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/donate.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/donate.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/doughnut_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/doughnut_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/down.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/down.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/down_left.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/down_left.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/down_right.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/down_right.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/download.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/download.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/edit_image.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/edit_image.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electrical_sensor.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electrical_sensor.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electrical_threshold.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electrical_threshold.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electricity.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electricity.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electro_devices.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electro_devices.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electronics.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/electronics.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/empty_battery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/empty_battery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/empty_filter.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/empty_filter.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/empty_trash.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/empty_trash.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/end_call.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/end_call.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/engineering.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/engineering.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/entering_heaven_alive.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/entering_heaven_alive.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/expand.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/expand.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/expired.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/expired.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/export.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/export.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/external.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/external.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/factory.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/factory.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/factory_breakdown.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/factory_breakdown.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/faq.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/faq.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/feed_in.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/feed_in.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/feedback.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/feedback.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/file.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/file.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/filing_cabinet.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/filing_cabinet.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/filled_filter.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/filled_filter.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/film.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/film.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/film_reel.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/film_reel.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/fine_print.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/fine_print.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flash_auto.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flash_auto.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flash_off.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flash_off.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flash_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flash_on.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flow_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/flow_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/folder.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/folder.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/frame.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/frame.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/full_battery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/full_battery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/full_trash.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/full_trash.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/gallery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/gallery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/genealogy.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/genealogy.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/generic_sorting_asc.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/generic_sorting_asc.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/generic_sorting_desc.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/generic_sorting_desc.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/globe.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/globe.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/good_decision.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/good_decision.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/graduation_cap.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/graduation_cap.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/grid.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/grid.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/headset.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/headset.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/heat_map.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/heat_map.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/high_battery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/high_battery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/high_priority.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/high_priority.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/home.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/home.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/icons8_cup.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/icons8_cup.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/idea.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/idea.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/image_file.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/image_file.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/import.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/import.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/in_transit.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/in_transit.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/info.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/info.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/inspection.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/inspection.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/integrated_webcam.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/integrated_webcam.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/internal.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/internal.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/invite.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/invite.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ipad.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ipad.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/iphone.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/iphone.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/key.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/key.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/kindle.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/kindle.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/landscape.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/landscape.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/leave.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/leave.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_down.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_down.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_down2.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_down2.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_up.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_up.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_up2.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/left_up2.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/library.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/library.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/light_at_the_end_of_tunnel.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/light_at_the_end_of_tunnel.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/like.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/like.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/like_placeholder.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/like_placeholder.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/line_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/line_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/link.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/link.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/list.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/list.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/lock.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/lock.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/lock_landscape.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/lock_landscape.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/lock_portrait.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/lock_portrait.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/low_battery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/low_battery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/low_priority.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/low_priority.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/make_decision.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/make_decision.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/manager.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/manager.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/medium_priority.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/medium_priority.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/menu.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/menu.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/middle_battery.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/middle_battery.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/mind_map.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/mind_map.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/minus.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/minus.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/missed_call.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/missed_call.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/mms.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/mms.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/money_transfer.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/money_transfer.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_cameras.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_cameras.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_devices.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_devices.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_inputs.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_inputs.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_smartphones.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/multiple_smartphones.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/music.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/music.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/negative_dynamic.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/negative_dynamic.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/neutral_decision.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/neutral_decision.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/neutral_trading.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/neutral_trading.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/news.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/news.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/next.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/next.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/night_landscape.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/night_landscape.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/night_portrait.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/night_portrait.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/no_idea.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/no_idea.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/no_video.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/no_video.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/nook.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/nook.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/numerical_sorting_12.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/numerical_sorting_12.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/numerical_sorting_21.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/numerical_sorting_21.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ok.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ok.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/old_time_camera.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/old_time_camera.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/online_support.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/online_support.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/opened_folder.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/opened_folder.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/org_unit.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/org_unit.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/organization.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/organization.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/overtime.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/overtime.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/package.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/package.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/paid.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/paid.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/panorama.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/panorama.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/parallel_tasks.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/parallel_tasks.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/phone.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/phone.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/phone_android.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/phone_android.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/photo_reel.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/photo_reel.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/picture.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/picture.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/pie_chart.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/pie_chart.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/planner.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/planner.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/plus.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/plus.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/podium_with_audience.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/podium_with_audience.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/podium_with_speaker.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/podium_with_speaker.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/podium_without_speaker.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/podium_without_speaker.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/portrait_mode.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/portrait_mode.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/positive_dynamic.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/positive_dynamic.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/previous.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/previous.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/print.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/print.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/privacy.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/privacy.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/process.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/process.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/puzzle.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/puzzle.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/questions.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/questions.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/radar_plot.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/radar_plot.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rating.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rating.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ratings.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ratings.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/reading.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/reading.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/reading_ebook.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/reading_ebook.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/redo.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/redo.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/refresh.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/refresh.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/registered_trademark.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/registered_trademark.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/remove_image.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/remove_image.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/reuse.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/reuse.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_down.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_down.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_down2.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_down2.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_up.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_up.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_up2.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/right_up2.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rotate_camera.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rotate_camera.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rotate_to_landscape.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rotate_to_landscape.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rotate_to_portrait.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rotate_to_portrait.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ruler.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/ruler.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rules.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/rules.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/safe.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/safe.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sales_performance.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sales_performance.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/scatter_plot.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/scatter_plot.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/search.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/search.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/self_service_kiosk.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/self_service_kiosk.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/selfie.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/selfie.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/serial_tasks.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/serial_tasks.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/service_mark.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/service_mark.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/services.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/services.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/settings.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/settings.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/share.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/share.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/shipped.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/shipped.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/shop.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/shop.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/signature.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/signature.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sim_card.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sim_card.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sim_card_chip.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sim_card_chip.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/slr_back_side.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/slr_back_side.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/smartphone_tablet.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/smartphone_tablet.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sms.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sms.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sound_recording_copyright.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sound_recording_copyright.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/speaker.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/speaker.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sports_mode.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/sports_mode.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/stack_of_photos.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/stack_of_photos.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/start.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/start.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/statistics.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/statistics.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/support.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/support.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/survey.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/survey.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/switch_camera.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/switch_camera.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/synchronize.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/synchronize.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/tablet_android.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/tablet_android.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/template.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/template.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/timeline.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/timeline.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/todo_list.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/todo_list.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/touchscreen_smartphone.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/touchscreen_smartphone.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/trademark.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/trademark.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/tree_structure.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/tree_structure.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/two_smartphones.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/two_smartphones.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/undo.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/undo.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/unlock.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/unlock.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/up.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/up.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/up_left.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/up_left.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/up_right.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/up_right.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/upload.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/upload.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/video_call.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/video_call.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/video_file.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/video_file.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/video_projector.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/video_projector.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/view_details.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/view_details.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/vip.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/vip.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/voice_presentation.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/voice_presentation.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/voicemail.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/voicemail.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/webcam.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/webcam.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/workflow.svg" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/icons/workflow.svg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.app.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.app.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.chartjs.init.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.chartjs.init.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.dashboard.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.dashboard_2.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.dashboard_2.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.flot.init.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.flot.init.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.form-advanced.init.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.form-advanced.init.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.google-charts.init.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/jquery.google-charts.init.js" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -355,66 +27,64 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="GradleThemeDemo" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="message.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#9;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#12;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#13;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#14;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#15;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#16;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#17;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#18;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#19;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp">
+      <file leaf-file-name="DBOperationDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/Global/DBOperationDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="375" column="79" lean-forward="true" selection-start-line="375" selection-start-column="79" selection-end-line="375" selection-end-column="79" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DepartmentDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Portal/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeRegistration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Registration/EmployeeRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -440,14 +110,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="GradleThemeDemo" />
+              <option name="name" value="PharmaFinalTermProject" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="GradleThemeDemo" />
+                <option name="name" value="PharmaFinalTermProject" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -461,7 +131,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'GradleThemeDemo'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'PharmaFinalTermProject'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -471,7 +141,7 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'GradleThemeDemo'." />
+                <option name="description" value="Displays the sub-projects of root project 'PharmaFinalTermProject'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -481,12 +151,12 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'GradleThemeDemo'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'PharmaFinalTermProject'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'GradleThemeDemo'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'PharmaFinalTermProject'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -511,7 +181,7 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'GradleThemeDemo'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'PharmaFinalTermProject'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -521,7 +191,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'GradleThemeDemo'." />
+                <option name="description" value="Displays the tasks runnable from root project 'PharmaFinalTermProject'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -546,7 +216,7 @@
                 <option name="name" value="war" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'GradleThemeDemo'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'PharmaFinalTermProject'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -571,7 +241,7 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'GradleThemeDemo'." />
+                <option name="description" value="Displays all dependencies declared in root project 'PharmaFinalTermProject'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -596,7 +266,7 @@
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'GradleThemeDemo'." />
+                <option name="description" value="Displays the properties of root project 'PharmaFinalTermProject'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -607,9 +277,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3039491790537" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3982180526" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="1821354054" />
+        <entry key="$PROJECT_DIR$" value="3045216817107" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3900597353" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1234629629" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -628,7 +298,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="GradleThemeDemo" />
+              <option name="name" value="PharmaFinalTermProject" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-4.5.1/lib/ant-1.9.9.jar" />
@@ -719,16 +389,12 @@
     </option>
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$/../ERPServer-master" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../FinalProject1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../account-REST-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../seyhan-master" value="PREVIEW" />
       </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -750,6 +416,7 @@
     <option name="width" value="1022" />
     <option name="height" value="726" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -765,69 +432,77 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaFinalTermProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GradleThemeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20358515" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -843,7 +518,6 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -864,10 +538,9 @@
       <envs />
     </configuration>
     <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9080/GradleThemeDemo-1.0-SNAPSHOT/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : GradleThemeDemo : GradleThemeDemo-1.0-SNAPSHOT.war (exploded)">
+        <artifact name="FinalProject:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -931,7 +604,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : GradleThemeDemo : GradleThemeDemo-1.0-SNAPSHOT.war (exploded)" />
+          <artifact name="FinalProject:war exploded" />
         </option>
       </method>
     </configuration>
@@ -954,6 +627,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FinalProject" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -1004,54 +689,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="75b33d6a-ff4e-4805-9b34-4fc82fcedf10" name="Default" comment="" />
-      <created>1519904970140</created>
+      <changelist id="4b16975f-49eb-49ca-81a9-308ccdf3dff5" name="Default" comment="" />
+      <created>1522648478243</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519904970140</updated>
-      <workItem from="1519904995722" duration="1213000" />
+      <updated>1522648478243</updated>
+      <workItem from="1522648479718" duration="979000" />
+      <workItem from="1522662749198" duration="1881000" />
+      <workItem from="1522838326024" duration="229000" />
+      <workItem from="1522838705268" duration="202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1213000" />
+    <option name="totallyTimeSpent" value="3291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22608696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11940298" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1433902" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21304348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1065,46 +755,283 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#9;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#12;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#13;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#14;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#15;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#16;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#17;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#18;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#19;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="375" column="79" lean-forward="true" selection-start-line="375" selection-start-column="79" selection-end-line="375" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DepartmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Portal/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Registration/EmployeeRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/Global/DBOperationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DepartmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Portal/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Registration/EmployeeRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/Global/DBOperationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Document/DocumentCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/Global/DBOperationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Document/DocumentCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DocumentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Dashboard/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Portal/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Employee/Registration/EmployeeRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DepartmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/Global/DBOperationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>FinalProject:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20358515" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FinalProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20358515" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

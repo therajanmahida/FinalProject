@@ -124,9 +124,9 @@ public class DrugREST {
         DrugVO drugVO = gson.fromJson(inputdata,DrugVO.class);
         drugVO.setCompanyVO(list.get(0));
 
-        new DrugDAO().insert(drugVO);
+        Integer data  = new DrugDAO().insert(drugVO);
 
-        return Response.ok().build();
+        return Response.ok(gson.toJson(data),MediaType.APPLICATION_JSON).build();
     }
 
     @GET
