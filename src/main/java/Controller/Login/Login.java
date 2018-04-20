@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet(name = "Login",urlPatterns = {"/login"})
 public class Login extends HttpServlet {
     protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/jsp/login.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/jsp/login_view.jsp").forward(request,response);
 
 
 

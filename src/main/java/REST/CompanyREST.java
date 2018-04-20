@@ -145,5 +145,54 @@ public class CompanyREST {
         return Response.ok().build();
     }
 
+    @POST
+    @Path("/exist")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response existUser(String inputData){
+        CompanyVO companyVO = gson.fromJson(inputData,CompanyVO.class);
+        CompanyDAO companyDAO = new CompanyDAO();
+        List<CompanyVO> list  = companyDAO.getCompanyVOList();
+
+        long companyName = list.stream().filter(companyVO1 -> companyVO1.getCompanyName().equals(companyVO.getCompanyName())).count();
+        long gstNumber = list.stream().filter(companyVO1 -> companyVO1.getGstNumber().equals(companyVO.getGstNumber())).count();
+        long emailID = list.stream().filter(companyVO1 -> companyVO1.getEmailId().equals(companyVO.getEmailId())).count();
+        long contact1 = list.stream().filter(companyVO1 -> companyVO1.getContactNumberOne().equals(companyVO.getContactNumberOne())).count();
+        long contact2 = list.stream().filter(companyVO1 -> companyVO1.getContactNumberTwo().equals(companyVO.getContactNumberTwo())).count();
+        long companyExten = list.stream().filter(companyVO1 -> companyVO1.getCompanyExtention().equals(companyVO.getCompanyExtention())).count();
+
+        StringBuilder errorString = new StringBuilder();
+        if(companyName != 0){
+            errorString.append("Company Name ,");
+        }
+
+        if(gstNumber != 0){
+            errorString.append("Gst Number ,");
+        }
+
+        if(emailID != 0){
+            errorString.append("Email id ,");
+        }
+
+        if(contact1 != 0){
+            errorString.append("Contact#1 ,");
+        }
+
+        if(contact2 != 0){
+            errorString.append("Contact#2 ,");
+        }
+
+        if(companyExten != 0){
+            errorString.append("Company Extention ,");
+        }
+
+        if(companyName == 0 && gstNumber == 0 && emailID == 0 && contact1 == 0 && contact2 == 0 && companyExten == 0){
+            return Response.ok().build();
+        }else{
+            return Response.status(Response.Status.BAD_REQUEST).entity(gson.toJson(errorString)).build();
+        }
+
+
+    }
+
 
 }
